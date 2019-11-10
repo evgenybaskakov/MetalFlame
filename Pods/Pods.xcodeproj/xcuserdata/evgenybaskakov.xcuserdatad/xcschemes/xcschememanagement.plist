@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DRColorPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MetalFlame OSX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MetalFlame iOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MetalFlame tvOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Protobuf.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4DB870BD1CBF2FEFE2CBA5EF41F55723</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B466195C647640883AE7132DBE79616</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>842A0D621639C1DDB8DAFE2CF36B978A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B69F33595E5E59A20564997CA75369A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFD5F1C16792BF2981A1B1FDE8AECAE9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA9D13261AF395CF5D54BB3203DF2A6E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160F1A851DCE3040B1BA098F /* libPods-MetalFlame iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F599718A5E2F230957F70970 /* libPods-MetalFlame iOS.a */; };
+		75D2CB443DB46266133111D0 /* libPods-MetalFlame OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4C881D7D08B44E45BA06AC /* libPods-MetalFlame OSX.a */; };
+		80030CC51F02322900323D95 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80030CC41F02322900323D95 /* iAd.framework */; };
+		80160EE41EF3A965003C20C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80160EE31EF3A965003C20C2 /* GoogleService-Info.plist */; };
+		80160EE51EF3A965003C20C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80160EE31EF3A965003C20C2 /* GoogleService-Info.plist */; };
+		80160EE61EF3A965003C20C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80160EE31EF3A965003C20C2 /* GoogleService-Info.plist */; };
+		80233B7F1F189FA7000BA995 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80233B7E1F189FA7000BA995 /* QuartzCore.framework */; };
+		80233B851F18A7FA000BA995 /* NSBezierPath+BezierPathQuartzUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 80233B841F18A7FA000BA995 /* NSBezierPath+BezierPathQuartzUtilities.m */; };
+		80AFF4751EFA4E32006EF333 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFF4741EFA4E32006EF333 /* Metal.framework */; };
+		80AFF4771EFA4E49006EF333 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFF4761EFA4E49006EF333 /* MetalKit.framework */; };
+		80AFF47A1EFA4EB6006EF333 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFF4781EFA4EB6006EF333 /* Metal.framework */; };
+		80AFF47B1EFA4EB6006EF333 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFF4791EFA4EB6006EF333 /* MetalKit.framework */; };
+		80B932EA1F3810D7009AE275 /* spark.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80B932E91F3810D6009AE275 /* spark.svg */; };
+		80E634651F3C307A0026B0C7 /* AAPLToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E634641F3C307A0026B0C7 /* AAPLToolbar.m */; };
+		80EF804F1F1C7A2E0043DFD5 /* AAPLTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EF804E1F1C7A2E0043DFD5 /* AAPLTopViewController.m */; };
+		80EF80501F1C7A2E0043DFD5 /* AAPLTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EF804E1F1C7A2E0043DFD5 /* AAPLTopViewController.m */; };
+		80EF80511F1C7A2E0043DFD5 /* AAPLTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EF804E1F1C7A2E0043DFD5 /* AAPLTopViewController.m */; };
+		830D59DA1D23260800DFECC6 /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830D59D71D23260800DFECC6 /* AAPLAppDelegate.m */; };
+		830D59DB1D23260800DFECC6 /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830D59D71D23260800DFECC6 /* AAPLAppDelegate.m */; };
+		830D59DC1D23260800DFECC6 /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830D59D71D23260800DFECC6 /* AAPLAppDelegate.m */; };
+		837ACE6C1D2D82B1003D4049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837ACE6B1D2D82B1003D4049 /* Assets.xcassets */; };
+		837ACE6D1D2D82B1003D4049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837ACE6B1D2D82B1003D4049 /* Assets.xcassets */; };
+		837ACE6E1D2D82B1003D4049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837ACE6B1D2D82B1003D4049 /* Assets.xcassets */; };
+		83B579741C725969006BC688 /* AAPLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B579731C725969006BC688 /* AAPLRenderer.m */; };
+		83B579751C725969006BC688 /* AAPLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B579731C725969006BC688 /* AAPLRenderer.m */; };
+		83B579761C725969006BC688 /* AAPLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B579731C725969006BC688 /* AAPLRenderer.m */; };
+		83C74A7C1C62AE420088FED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C74A781C62AE420088FED5 /* main.m */; };
+		83C74A821C62AE850088FED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C74A7F1C62AE850088FED5 /* Main.storyboard */; };
+		83C74A8F1C62AF1A0088FED5 /* AAPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C74A881C62AF1A0088FED5 /* AAPLViewController.m */; };
+		83C74A901C62AF1A0088FED5 /* AAPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C74A881C62AF1A0088FED5 /* AAPLViewController.m */; };
+		83C74A931C62AF1A0088FED5 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 83C74A8A1C62AF1A0088FED5 /* Shaders.metal */; };
+		83C74A941C62AF1A0088FED5 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 83C74A8A1C62AF1A0088FED5 /* Shaders.metal */; };
+		83C74A9D1C62AF420088FED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C74A991C62AF420088FED5 /* main.m */; };
+		83C74ABB1C62D04A0088FED5 /* AAPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C74A881C62AF1A0088FED5 /* AAPLViewController.m */; };
+		83C74ABC1C62D04A0088FED5 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 83C74A8A1C62AF1A0088FED5 /* Shaders.metal */; };
+		83C74ABF1C62D59F0088FED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C74A781C62AE420088FED5 /* main.m */; };
+		83C74AC41C62D7830088FED5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C74AC21C62D7830088FED5 /* MainMenu.xib */; };
+		83C7D5371D1DE6C600F4457A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C7D5351D1DE6C600F4457A /* LaunchScreen.storyboard */; };
+		83DD4D7E1C63D66B00A48BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DD4D7A1C63D66B00A48BA2 /* Main.storyboard */; };
+		E947781FB2E1D215EF2C13C4 /* libPods-MetalFlame tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B239AE354D923A8C9BEBBD3 /* libPods-MetalFlame tvOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AF2CE2813C82831C4193CEB /* Pods-MetalFlame tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalFlame tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetalFlame tvOS/Pods-MetalFlame tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3B239AE354D923A8C9BEBBD3 /* libPods-MetalFlame tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MetalFlame tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4461761435D67F905A0F2E8C /* Pods-MetalFlame iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalFlame iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetalFlame iOS/Pods-MetalFlame iOS.release.xcconfig"; sourceTree = "<group>"; };
+		80030CC41F02322900323D95 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/iAd.framework; sourceTree = DEVELOPER_DIR; };
+		80160EE31EF3A965003C20C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		801885C41F037F78004DAB58 /* MetalFlame iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MetalFlame iOS.entitlements"; sourceTree = "<group>"; };
+		80233B7A1F189A15000BA995 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80233B7E1F189FA7000BA995 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		80233B831F18A7FA000BA995 /* NSBezierPath+BezierPathQuartzUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+BezierPathQuartzUtilities.h"; sourceTree = "<group>"; };
+		80233B841F18A7FA000BA995 /* NSBezierPath+BezierPathQuartzUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+BezierPathQuartzUtilities.m"; sourceTree = "<group>"; };
+		80AFF4741EFA4E32006EF333 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
+		80AFF4761EFA4E49006EF333 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
+		80AFF4781EFA4EB6006EF333 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		80AFF4791EFA4EB6006EF333 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		80B932E31F36F62D009AE275 /* flame.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = flame.svg; sourceTree = "<group>"; };
+		80B932E51F36F8CF009AE275 /* pencil.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = pencil.svg; sourceTree = "<group>"; };
+		80B932E61F370282009AE275 /* undo.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = undo.svg; sourceTree = "<group>"; };
+		80B932E71F378C7D009AE275 /* back.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = back.svg; sourceTree = "<group>"; };
+		80B932E81F380BFF009AE275 /* palette.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = palette.svg; sourceTree = "<group>"; };
+		80B932E91F3810D6009AE275 /* spark.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = spark.svg; sourceTree = "<group>"; };
+		80E634631F3C307A0026B0C7 /* AAPLToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAPLToolbar.h; path = Common/AAPLToolbar.h; sourceTree = SOURCE_ROOT; };
+		80E634641F3C307A0026B0C7 /* AAPLToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLToolbar.m; path = Common/AAPLToolbar.m; sourceTree = SOURCE_ROOT; };
+		80E634661F3C353D0026B0C7 /* save.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = save.svg; sourceTree = "<group>"; };
+		80E634671F3C360D0026B0C7 /* redo.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = redo.svg; sourceTree = "<group>"; };
+		80EF804D1F1C7A2E0043DFD5 /* AAPLTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAPLTopViewController.h; path = Common/AAPLTopViewController.h; sourceTree = SOURCE_ROOT; };
+		80EF804E1F1C7A2E0043DFD5 /* AAPLTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLTopViewController.m; path = Common/AAPLTopViewController.m; sourceTree = SOURCE_ROOT; };
+		830CF88A1C470C970029F1FA /* MetalFlame iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MetalFlame iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		830D59D61D23260800DFECC6 /* AAPLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAPLAppDelegate.h; path = Common/AAPLAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		830D59D71D23260800DFECC6 /* AAPLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLAppDelegate.m; path = Common/AAPLAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		837ACE6B1D2D82B1003D4049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		8397339A1C46DDE4000E29E1 /* MetalFlame OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MetalFlame OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B579721C725969006BC688 /* AAPLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAPLRenderer.h; path = Common/AAPLRenderer.h; sourceTree = SOURCE_ROOT; };
+		83B579731C725969006BC688 /* AAPLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLRenderer.m; path = Common/AAPLRenderer.m; sourceTree = SOURCE_ROOT; };
+		83C74A771C62AE420088FED5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOS/Info.plist; sourceTree = SOURCE_ROOT; };
+		83C74A781C62AE420088FED5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iOS/main.m; sourceTree = SOURCE_ROOT; };
+		83C74A801C62AE850088FED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = iOS/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		83C74A871C62AF1A0088FED5 /* AAPLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAPLViewController.h; path = Common/AAPLViewController.h; sourceTree = SOURCE_ROOT; };
+		83C74A881C62AF1A0088FED5 /* AAPLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLViewController.m; path = Common/AAPLViewController.m; sourceTree = SOURCE_ROOT; };
+		83C74A8A1C62AF1A0088FED5 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = Shaders.metal; path = Common/Shaders.metal; sourceTree = SOURCE_ROOT; };
+		83C74A981C62AF420088FED5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "OS X/Info.plist"; sourceTree = "<group>"; };
+		83C74A991C62AF420088FED5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "OS X/main.m"; sourceTree = "<group>"; };
+		83C74AA21C62CFA90088FED5 /* MetalFlame tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MetalFlame tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C74AC31C62D7830088FED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "OS X/Base.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		83C7D5361D1DE6C600F4457A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = iOS/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		83DD4D7B1C63D66B00A48BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = tvOS/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		83DD4D7C1C63D66B00A48BA2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = tvOS/Info.plist; sourceTree = SOURCE_ROOT; };
+		8820FC8D64A693DA896DE8E7 /* Pods-MetalFlame iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalFlame iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetalFlame iOS/Pods-MetalFlame iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		99CAB30193D6C444898F3BCE /* Pods-MetalFlame OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalFlame OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetalFlame OSX/Pods-MetalFlame OSX.release.xcconfig"; sourceTree = "<group>"; };
+		A34E04A28B9A18E176EDCDCF /* Pods-MetalFlame OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalFlame OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetalFlame OSX/Pods-MetalFlame OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		D3BBA43EC641B521206B2988 /* Pods-MetalFlame tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalFlame tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetalFlame tvOS/Pods-MetalFlame tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4C881D7D08B44E45BA06AC /* libPods-MetalFlame OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MetalFlame OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F599718A5E2F230957F70970 /* libPods-MetalFlame iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MetalFlame iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		830CF8871C470C970029F1FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80030CC51F02322900323D95 /* iAd.framework in Frameworks */,
+				80AFF4771EFA4E49006EF333 /* MetalKit.framework in Frameworks */,
+				80AFF4751EFA4E32006EF333 /* Metal.framework in Frameworks */,
+				160F1A851DCE3040B1BA098F /* libPods-MetalFlame iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839733971C46DDE4000E29E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80233B7F1F189FA7000BA995 /* QuartzCore.framework in Frameworks */,
+				80AFF47A1EFA4EB6006EF333 /* Metal.framework in Frameworks */,
+				80AFF47B1EFA4EB6006EF333 /* MetalKit.framework in Frameworks */,
+				75D2CB443DB46266133111D0 /* libPods-MetalFlame OSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C74A9F1C62CFA90088FED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E947781FB2E1D215EF2C13C4 /* libPods-MetalFlame tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022044284BC90F4ACE41FB23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80233B7E1F189FA7000BA995 /* QuartzCore.framework */,
+				80233B7A1F189A15000BA995 /* CoreGraphics.framework */,
+				80030CC41F02322900323D95 /* iAd.framework */,
+				80AFF4781EFA4EB6006EF333 /* Metal.framework */,
+				80AFF4791EFA4EB6006EF333 /* MetalKit.framework */,
+				80AFF4761EFA4E49006EF333 /* MetalKit.framework */,
+				80AFF4741EFA4E32006EF333 /* Metal.framework */,
+				DB4C881D7D08B44E45BA06AC /* libPods-MetalFlame OSX.a */,
+				F599718A5E2F230957F70970 /* libPods-MetalFlame iOS.a */,
+				3B239AE354D923A8C9BEBBD3 /* libPods-MetalFlame tvOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3867836B6BA612DCD3977195 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A34E04A28B9A18E176EDCDCF /* Pods-MetalFlame OSX.debug.xcconfig */,
+				99CAB30193D6C444898F3BCE /* Pods-MetalFlame OSX.release.xcconfig */,
+				8820FC8D64A693DA896DE8E7 /* Pods-MetalFlame iOS.debug.xcconfig */,
+				4461761435D67F905A0F2E8C /* Pods-MetalFlame iOS.release.xcconfig */,
+				D3BBA43EC641B521206B2988 /* Pods-MetalFlame tvOS.debug.xcconfig */,
+				3AF2CE2813C82831C4193CEB /* Pods-MetalFlame tvOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80B932E41F36F646009AE275 /* svg */ = {
+			isa = PBXGroup;
+			children = (
+				80B932E71F378C7D009AE275 /* back.svg */,
+				80B932E31F36F62D009AE275 /* flame.svg */,
+				80B932E81F380BFF009AE275 /* palette.svg */,
+				80B932E51F36F8CF009AE275 /* pencil.svg */,
+				80E634671F3C360D0026B0C7 /* redo.svg */,
+				80E634661F3C353D0026B0C7 /* save.svg */,
+				80B932E91F3810D6009AE275 /* spark.svg */,
+				80B932E61F370282009AE275 /* undo.svg */,
+			);
+			name = svg;
+			sourceTree = "<group>";
+		};
+		830CF88B1C470C970029F1FA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				83C7D5351D1DE6C600F4457A /* LaunchScreen.storyboard */,
+				83C74A7F1C62AE850088FED5 /* Main.storyboard */,
+				80E634631F3C307A0026B0C7 /* AAPLToolbar.h */,
+				80E634641F3C307A0026B0C7 /* AAPLToolbar.m */,
+				83C74A771C62AE420088FED5 /* Info.plist */,
+				83C74A781C62AE420088FED5 /* main.m */,
+			);
+			name = iOS;
+			path = "LivingFlame iOS";
+			sourceTree = "<group>";
+		};
+		8394E9231C470FFB001CCB2F /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				80233B831F18A7FA000BA995 /* NSBezierPath+BezierPathQuartzUtilities.h */,
+				80233B841F18A7FA000BA995 /* NSBezierPath+BezierPathQuartzUtilities.m */,
+				83C74A981C62AF420088FED5 /* Info.plist */,
+				83C74A991C62AF420088FED5 /* main.m */,
+				83C74AC21C62D7830088FED5 /* MainMenu.xib */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		839733911C46DDE4000E29E1 = {
+			isa = PBXGroup;
+			children = (
+				80B932E41F36F646009AE275 /* svg */,
+				801885C41F037F78004DAB58 /* MetalFlame iOS.entitlements */,
+				80160EE31EF3A965003C20C2 /* GoogleService-Info.plist */,
+				8397339C1C46DDE4000E29E1 /* Common */,
+				8394E9231C470FFB001CCB2F /* OS X */,
+				830CF88B1C470C970029F1FA /* iOS */,
+				83C74AA31C62CFA90088FED5 /* tvOS */,
+				8397339B1C46DDE4000E29E1 /* Products */,
+				3867836B6BA612DCD3977195 /* Pods */,
+				022044284BC90F4ACE41FB23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8397339B1C46DDE4000E29E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8397339A1C46DDE4000E29E1 /* MetalFlame OSX.app */,
+				830CF88A1C470C970029F1FA /* MetalFlame iOS.app */,
+				83C74AA21C62CFA90088FED5 /* MetalFlame tvOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8397339C1C46DDE4000E29E1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				830D59D61D23260800DFECC6 /* AAPLAppDelegate.h */,
+				830D59D71D23260800DFECC6 /* AAPLAppDelegate.m */,
+				83B579721C725969006BC688 /* AAPLRenderer.h */,
+				83B579731C725969006BC688 /* AAPLRenderer.m */,
+				80EF804D1F1C7A2E0043DFD5 /* AAPLTopViewController.h */,
+				80EF804E1F1C7A2E0043DFD5 /* AAPLTopViewController.m */,
+				83C74A871C62AF1A0088FED5 /* AAPLViewController.h */,
+				83C74A881C62AF1A0088FED5 /* AAPLViewController.m */,
+				83C74A8A1C62AF1A0088FED5 /* Shaders.metal */,
+				837ACE6B1D2D82B1003D4049 /* Assets.xcassets */,
+			);
+			name = Common;
+			path = LivingFlame;
+			sourceTree = "<group>";
+		};
+		83C74AA31C62CFA90088FED5 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				83DD4D7A1C63D66B00A48BA2 /* Main.storyboard */,
+				83DD4D7C1C63D66B00A48BA2 /* Info.plist */,
+			);
+			name = tvOS;
+			path = "LivingFlame-tvOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		830CF8891C470C970029F1FA /* MetalFlame iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830CF8A01C470C970029F1FA /* Build configuration list for PBXNativeTarget "MetalFlame iOS" */;
+			buildPhases = (
+				C1A3BF6F0B1B37E416A81ACB /* [CP] Check Pods Manifest.lock */,
+				830CF8861C470C970029F1FA /* Sources */,
+				830CF8871C470C970029F1FA /* Frameworks */,
+				830CF8881C470C970029F1FA /* Resources */,
+				C3AC203CCF2F001D66675E27 /* [CP] Embed Pods Frameworks */,
+				F596EEB93F27C2A00DB42935 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetalFlame iOS";
+			productName = "LivingFlame iOS";
+			productReference = 830CF88A1C470C970029F1FA /* MetalFlame iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		839733991C46DDE4000E29E1 /* MetalFlame OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839733B11C46DDE5000E29E1 /* Build configuration list for PBXNativeTarget "MetalFlame OSX" */;
+			buildPhases = (
+				1288BED58DE3F325A5483B62 /* [CP] Check Pods Manifest.lock */,
+				839733961C46DDE4000E29E1 /* Sources */,
+				839733971C46DDE4000E29E1 /* Frameworks */,
+				839733981C46DDE4000E29E1 /* Resources */,
+				B63EDDD400590C6F28377EF6 /* [CP] Embed Pods Frameworks */,
+				EB900E7CBA3066F00AADECBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetalFlame OSX";
+			productName = LivingFlame;
+			productReference = 8397339A1C46DDE4000E29E1 /* MetalFlame OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83C74AA11C62CFA90088FED5 /* MetalFlame tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C74AB81C62CFA90088FED5 /* Build configuration list for PBXNativeTarget "MetalFlame tvOS" */;
+			buildPhases = (
+				0A4A86A7F6F77F5BBA2DCBC1 /* [CP] Check Pods Manifest.lock */,
+				83C74A9E1C62CFA90088FED5 /* Sources */,
+				83C74A9F1C62CFA90088FED5 /* Frameworks */,
+				83C74AA01C62CFA90088FED5 /* Resources */,
+				DFC228B2A99F35CCEF59102F /* [CP] Embed Pods Frameworks */,
+				E20A1EFA181EBA3FF1966370 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetalFlame tvOS";
+			productName = "LivingFlame-tvOS";
+			productReference = 83C74AA21C62CFA90088FED5 /* MetalFlame tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839733921C46DDE4000E29E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Apple, Inc.";
+				TargetAttributes = {
+					830CF8891C470C970029F1FA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JR553TGT6K;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					839733991C46DDE4000E29E1 = {
+						CreatedOnToolsVersion = 7.2;
+						ProvisioningStyle = Manual;
+					};
+					83C74AA11C62CFA90088FED5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 839733951C46DDE4000E29E1 /* Build configuration list for PBXProject "MetalFlame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839733911C46DDE4000E29E1;
+			productRefGroup = 8397339B1C46DDE4000E29E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839733991C46DDE4000E29E1 /* MetalFlame OSX */,
+				830CF8891C470C970029F1FA /* MetalFlame iOS */,
+				83C74AA11C62CFA90088FED5 /* MetalFlame tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		830CF8881C470C970029F1FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C7D5371D1DE6C600F4457A /* LaunchScreen.storyboard in Resources */,
+				80160EE51EF3A965003C20C2 /* GoogleService-Info.plist in Resources */,
+				83C74A821C62AE850088FED5 /* Main.storyboard in Resources */,
+				837ACE6D1D2D82B1003D4049 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839733981C46DDE4000E29E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B932EA1F3810D7009AE275 /* spark.svg in Resources */,
+				837ACE6C1D2D82B1003D4049 /* Assets.xcassets in Resources */,
+				83C74AC41C62D7830088FED5 /* MainMenu.xib in Resources */,
+				80160EE41EF3A965003C20C2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C74AA01C62CFA90088FED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DD4D7E1C63D66B00A48BA2 /* Main.storyboard in Resources */,
+				837ACE6E1D2D82B1003D4049 /* Assets.xcassets in Resources */,
+				80160EE61EF3A965003C20C2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A4A86A7F6F77F5BBA2DCBC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1288BED58DE3F325A5483B62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B63EDDD400590C6F28377EF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetalFlame OSX/Pods-MetalFlame OSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A3BF6F0B1B37E416A81ACB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3AC203CCF2F001D66675E27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetalFlame iOS/Pods-MetalFlame iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFC228B2A99F35CCEF59102F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetalFlame tvOS/Pods-MetalFlame tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20A1EFA181EBA3FF1966370 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetalFlame tvOS/Pods-MetalFlame tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB900E7CBA3066F00AADECBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetalFlame OSX/Pods-MetalFlame OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F596EEB93F27C2A00DB42935 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetalFlame iOS/Pods-MetalFlame iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		830CF8861C470C970029F1FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C74A941C62AF1A0088FED5 /* Shaders.metal in Sources */,
+				83C74A901C62AF1A0088FED5 /* AAPLViewController.m in Sources */,
+				80E634651F3C307A0026B0C7 /* AAPLToolbar.m in Sources */,
+				83C74A7C1C62AE420088FED5 /* main.m in Sources */,
+				83B579751C725969006BC688 /* AAPLRenderer.m in Sources */,
+				80EF80501F1C7A2E0043DFD5 /* AAPLTopViewController.m in Sources */,
+				830D59DB1D23260800DFECC6 /* AAPLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839733961C46DDE4000E29E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C74A931C62AF1A0088FED5 /* Shaders.metal in Sources */,
+				80EF804F1F1C7A2E0043DFD5 /* AAPLTopViewController.m in Sources */,
+				83C74A8F1C62AF1A0088FED5 /* AAPLViewController.m in Sources */,
+				83C74A9D1C62AF420088FED5 /* main.m in Sources */,
+				80233B851F18A7FA000BA995 /* NSBezierPath+BezierPathQuartzUtilities.m in Sources */,
+				83B579741C725969006BC688 /* AAPLRenderer.m in Sources */,
+				830D59DA1D23260800DFECC6 /* AAPLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C74A9E1C62CFA90088FED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C74ABF1C62D59F0088FED5 /* main.m in Sources */,
+				83C74ABB1C62D04A0088FED5 /* AAPLViewController.m in Sources */,
+				83C74ABC1C62D04A0088FED5 /* Shaders.metal in Sources */,
+				83B579761C725969006BC688 /* AAPLRenderer.m in Sources */,
+				80EF80511F1C7A2E0043DFD5 /* AAPLTopViewController.m in Sources */,
+				830D59DC1D23260800DFECC6 /* AAPLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83C74A7F1C62AE850088FED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C74A801C62AE850088FED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83C74AC21C62D7830088FED5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C74AC31C62D7830088FED5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		83C7D5351D1DE6C600F4457A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C7D5361D1DE6C600F4457A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		83DD4D7A1C63D66B00A48BA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DD4D7B1C63D66B00A48BA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		830CF89E1C470C970029F1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8820FC8D64A693DA896DE8E7 /* Pods-MetalFlame iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MetalFlame iOS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JR553TGT6K;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_OPTIMIZATION_LEVEL = 3;
+				MTL_PREPROCESSOR_DEFINITIONS = "";
+				"MTL_PREPROCESSOR_DEFINITIONS[sdk=*]" = METAL_IOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evgenybaskakov3.FlamingStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		830CF89F1C470C970029F1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4461761435D67F905A0F2E8C /* Pods-MetalFlame iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MetalFlame iOS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JR553TGT6K;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_OPTIMIZATION_LEVEL = 3;
+				MTL_PREPROCESSOR_DEFINITIONS = "";
+				"MTL_PREPROCESSOR_DEFINITIONS[sdk=*]" = METAL_IOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evgenybaskakov3.FlamingStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839733AF1C46DDE5000E29E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_FAST_MATH = YES;
+				MTL_OPTIMIZATION_LEVEL = 3;
+				MTL_PREPROCESSOR_DEFINITIONS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		839733B01C46DDE5000E29E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_FAST_MATH = YES;
+				MTL_OPTIMIZATION_LEVEL = 3;
+				MTL_PREPROCESSOR_DEFINITIONS = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		839733B21C46DDE5000E29E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34E04A28B9A18E176EDCDCF /* Pods-MetalFlame OSX.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/OS X/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evgenybaskakov3.FlamingStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		839733B31C46DDE5000E29E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99CAB30193D6C444898F3BCE /* Pods-MetalFlame OSX.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/OS X/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evgenybaskakov3.FlamingStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		83C74AB61C62CFA90088FED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3BBA43EC641B521206B2988 /* Pods-MetalFlame tvOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_LANGUAGE_REVISION = Metal11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evgenybaskakov3.FlamingStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		83C74AB71C62CFA90088FED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF2CE2813C82831C4193CEB /* Pods-MetalFlame tvOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_LANGUAGE_REVISION = Metal11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evgenybaskakov3.FlamingStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		830CF8A01C470C970029F1FA /* Build configuration list for PBXNativeTarget "MetalFlame iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830CF89E1C470C970029F1FA /* Debug */,
+				830CF89F1C470C970029F1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839733951C46DDE4000E29E1 /* Build configuration list for PBXProject "MetalFlame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839733AF1C46DDE5000E29E1 /* Debug */,
+				839733B01C46DDE5000E29E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839733B11C46DDE5000E29E1 /* Build configuration list for PBXNativeTarget "MetalFlame OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839733B21C46DDE5000E29E1 /* Debug */,
+				839733B31C46DDE5000E29E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C74AB81C62CFA90088FED5 /* Build configuration list for PBXNativeTarget "MetalFlame tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C74AB61C62CFA90088FED5 /* Debug */,
+				83C74AB71C62CFA90088FED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839733921C46DDE4000E29E1 /* Project object */;
+}

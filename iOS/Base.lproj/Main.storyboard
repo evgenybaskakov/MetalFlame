@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Top View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AAPLTopViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vhd-RZ-Rzm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <segue destination="P1R-ed-tS4" kind="embed" id="kw0-H5-YEM"/>
+                                </connections>
+                            </containerView>
+                            <view opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gLP-Mf-ifU">
+                                <rect key="frame" x="63" y="186" width="248" height="294"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHC-xa-DkM">
+                                        <rect key="frame" x="-8" y="20" width="268" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="80"/>
+                                        <state key="normal" title="Create">
+                                            <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="createAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qdt-jx-ZlQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAH-yk-GWY">
+                                        <rect key="frame" x="0.0" y="168" width="248" height="106"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="80"/>
+                                        <state key="normal" title="Play">
+                                            <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lBv-0h-PB3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="294" id="RWY-Wb-1mB"/>
+                                    <constraint firstAttribute="width" constant="248" id="jr5-2e-XRp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gLP-Mf-ifU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5lY-Ve-TSQ"/>
+                            <constraint firstItem="gLP-Mf-ifU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W8E-rY-7VJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonBox" destination="gLP-Mf-ifU" id="FlK-8b-Dia"/>
+                        <outlet property="createButton" destination="RHC-xa-DkM" id="52H-np-geD"/>
+                        <outlet property="playButton" destination="gAH-yk-GWY" id="wWJ-Ba-kmw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CZi-JS-UEV">
+            <objects>
+                <viewController id="P1R-ed-tS4" customClass="AAPLViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="war-Gx-fRp"/>
+                        <viewControllerLayoutGuide type="bottom" id="BOQ-OT-RaQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wx1-jD-mQW" customClass="MTKView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="wyD-9o-ZTh" customClass="AAPLToolbar">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="oe0-9p-zFr"/>
+                                    <barButtonItem image="back" id="Vtp-8M-oP3">
+                                        <connections>
+                                            <action selector="backAction:" destination="P1R-ed-tS4" id="49s-yh-UTB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="cXv-i5-h0I"/>
+                                    <barButtonItem image="save" id="V26-Ie-w5K">
+                                        <connections>
+                                            <action selector="saveAction:" destination="P1R-ed-tS4" id="duU-48-gXp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="eLJ-fM-14n"/>
+                                    <barButtonItem image="undo" id="Fqi-Di-uCC">
+                                        <connections>
+                                            <action selector="undoAction:" destination="P1R-ed-tS4" id="VTu-IC-gD1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="8Ae-qz-kBU"/>
+                                    <barButtonItem image="redo" id="hYc-RK-meM">
+                                        <connections>
+                                            <action selector="redoAction:" destination="P1R-ed-tS4" id="7Es-7F-UKh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="iTe-E4-8x9"/>
+                                    <barButtonItem image="palette" id="cs7-ad-4K2">
+                                        <connections>
+                                            <action selector="paletteAction:" destination="P1R-ed-tS4" id="e9x-3U-P5a"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="461-T8-9zB"/>
+                                    <barButtonItem image="flame" id="6Ko-g8-JUa">
+                                        <connections>
+                                            <action selector="flameAction:" destination="P1R-ed-tS4" id="o5h-oN-RER"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="SQt-vY-Wa9"/>
+                                    <barButtonItem image="spark" id="4i8-mc-VKe" userLabel="Spark Button Item">
+                                        <connections>
+                                            <action selector="sparkAction:" destination="P1R-ed-tS4" id="jRa-6T-fPp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ScR-jr-TsH" userLabel="Space8"/>
+                                </items>
+                                <color key="tintColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="Vtp-8M-oP3" id="PeA-Wj-Fze"/>
+                        <outlet property="flameButton" destination="6Ko-g8-JUa" id="sHt-Lr-Exm"/>
+                        <outlet property="paletteButton" destination="cs7-ad-4K2" id="D9D-yg-bSe"/>
+                        <outlet property="redoButton" destination="hYc-RK-meM" id="psz-VC-Mxv"/>
+                        <outlet property="saveButton" destination="V26-Ie-w5K" id="Tke-vw-iYJ"/>
+                        <outlet property="space1" destination="oe0-9p-zFr" id="rUx-sw-YOu"/>
+                        <outlet property="space2" destination="cXv-i5-h0I" id="zFj-lh-nNw"/>
+                        <outlet property="space3" destination="eLJ-fM-14n" id="mVn-bQ-83S"/>
+                        <outlet property="space4" destination="8Ae-qz-kBU" id="fV7-Bd-hBK"/>
+                        <outlet property="space5" destination="iTe-E4-8x9" id="8I7-4g-pr3"/>
+                        <outlet property="space6" destination="461-T8-9zB" id="xkS-YB-JcN"/>
+                        <outlet property="space7" destination="SQt-vY-Wa9" id="7d4-yA-4eB"/>
+                        <outlet property="space8" destination="ScR-jr-TsH" id="ttn-nT-2Jw"/>
+                        <outlet property="sparkButton" destination="4i8-mc-VKe" id="Lbr-6s-w2A"/>
+                        <outlet property="toolbar" destination="wyD-9o-ZTh" id="7H2-pA-oHu"/>
+                        <outlet property="undoButton" destination="Fqi-Di-uCC" id="OpE-O2-oMt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p8B-Qs-ESn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="32" height="32"/>
+        <image name="flame" width="32" height="32"/>
+        <image name="palette" width="32" height="32"/>
+        <image name="redo" width="32" height="32"/>
+        <image name="save" width="32" height="32"/>
+        <image name="spark" width="32" height="32"/>
+        <image name="undo" width="32" height="32"/>
+    </resources>
+</document>

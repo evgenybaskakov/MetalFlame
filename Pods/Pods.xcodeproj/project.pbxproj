@@ -1,0 +1,1572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02010E80449C8EAEBF2E522D6F03AAFA /* GPBUnknownField.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C566A4DD5F7B0A1E5CB603D604AA2C /* GPBUnknownField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		040A0EC0113301652BF720CB8A77F7AF /* Type.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9436535F04D8DDB8939DCA7D06631D03 /* Type.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0410A46F56C27A00CE9592F36D71B6B1 /* GPBProtocolBuffers_RuntimeSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = E175C3BCD2DBFAFFDAE0C1548F6C312D /* GPBProtocolBuffers_RuntimeSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05DE5F868810230E9F11E1C34EF25A9C /* GPBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 482B9E7EACD751050F3F419592FF5FD1 /* GPBUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		086B4A2FC60AD9A1B45F2D67600C53B3 /* DRColorPickerColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 15105F92F0B3A0367743473C9DC26D34 /* DRColorPickerColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A551F68F205DFF1A5D59EB50CF26792 /* GPBExtensionInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = EF611382CE07386D226858614A21C1FD /* GPBExtensionInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D65F0E2FDCEF6171792B702561D251D /* DRColorPickerHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D985D867F2C0B418FEFF4ED1565CA6 /* DRColorPickerHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DA41C7CAFAEBF2899AC4B9C84D13571 /* DRColorPickerColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17419343F81B37AFE81E5F4EA0AEA3 /* DRColorPickerColorView.m */; };
+		0DF0609C4776291E5779E83F7031B3AD /* GPBUnknownFieldSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 28033A30A7EA0EA0EDF705BD2C3E2388 /* GPBUnknownFieldSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F90B55E42025CEBE8EA19EA89FFC6A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A25B52F22D5AD3C2344F850FB4B07D /* QuartzCore.framework */; };
+		137A9FC65B29D01EC00465A9C6AE708D /* GPBUnknownField.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F23EBE948F1F477E7B7F645ECFF241 /* GPBUnknownField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		13C11169CE24490918F53B1F10303628 /* GPBExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67F614E43BD32409F3B67F90D871FA /* GPBExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15036DFE99F9B4D2F5349A97D952D0DB /* GPBRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E794DAD6B3059BFBBAD611321717B0EB /* GPBRootObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		154E5AB0C541CED05D795C6198947D27 /* GTMLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 05618C2BAD214A7689BEDE43C2403600 /* GTMLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1555A8B2350A671DDBF5DE8D7D48E36A /* DRColorPickerHueViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6024B11D0EA2FAC2F209C9D8D120DD2 /* DRColorPickerHueViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15CB22932F611080532FE35112E5F2CC /* DRColorPickerHueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C112204A692B820EAA50C1461231516 /* DRColorPickerHueViewController.m */; };
+		1654DBBAA63900F610DCABABD34A1806 /* Duration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7E6FBCEC115A3E2A8B1334BC50ED8 /* Duration.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		171571746A9DBB0DE96D834CD7FB1950 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E8172DEF65F993C6021B17F8803E85 /* UIKit.framework */; };
+		1778F261C6AA933DB3067262269C2E3E /* GPBWireFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A3BEE1342E4DD57A9043C70E04B7E9 /* GPBWireFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C089433F14841DE82557C07B41BE09E /* DRColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E38336BB8304861B20A37A4BAF5BE7F5 /* DRColorPicker-dummy.m */; };
+		1D40D2863F7F5FAD328AD514DBF06614 /* DRColorPickerWheelViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DC50DAEBBC89ACDA3AB360B598BE9049 /* DRColorPickerWheelViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F6DA2CFDF1371B5D42BDEB0C7F00152 /* DRColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E53157419E565BDBA0CBE294120D3852 /* DRColorPicker.m */; };
+		2168D239BE73C55CDFEBCCB653000CD5 /* GPBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D97F4CA41B61BAF9F7B568C106DFC179 /* GPBMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		263B79AE7A5B8DA75E8185E320C98A57 /* Pods-MetalFlame iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1409B950D0E8E983E73738A78F51A /* Pods-MetalFlame iOS-dummy.m */; };
+		2FDE57FFF7A9A421E6CE2871F050566D /* FieldMask.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4487C4D8DB2BADED9501F51E5850F428 /* FieldMask.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		31185D7C2B3AB0B5746642DF457D388D /* DRColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A093574DC69D944EF90A80607457EC5 /* DRColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		326A94430916D36D8AAD4A142EA8BFBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228D375C5C6CD3D3FAE2E16BC46F7E96 /* Foundation.framework */; };
+		33B99C66AA2AF79832CE5C41C28FCA4D /* DRColorPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE5B3DCA6E6FB68FB562F4A10B90CDF /* DRColorPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33DD3C786D272DEB72F2DA13D81FF068 /* GPBRootObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C4438807FE2E73AB5A6A70ACDD20B635 /* GPBRootObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3487F99020206D3EFE486CCF4D6C29E7 /* GPBMessage_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9903B9D933FEB2985D008212E50E0C47 /* GPBMessage_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		383C73D6B9216B61B431A81B1EB356EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228D375C5C6CD3D3FAE2E16BC46F7E96 /* Foundation.framework */; };
+		3870D9B1E8831224A7504B948F827BD9 /* GPBUnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F320E0D096DC37AFE752B54A805735 /* GPBUnknownFieldSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3A01E6141C851E20CDA20EB99A023B35 /* Type.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5437F8CC88A8AE33FEBF930EA753C1CE /* Type.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B165B15815135EB458356BB8A9D7B0F /* DRColorPickerGridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B346D21CF7A3FC21E5277389E62BFF /* DRColorPickerGridViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EC52A6EEE754C0E4761B636C7868975 /* Protobuf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF08EDFA862BA636D2A55078CA79CBC /* Protobuf-dummy.m */; };
+		447B2200ACCA63F15375E937C056C670 /* Struct.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E65E1736C6E28C7D0C3B9B430777CB8 /* Struct.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4832374ED695592EEA4B70EC33F04BA8 /* FieldMask.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = AE81AC33C445114A888621557250E59D /* FieldMask.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49BA9CAC89056DCB5322126060495FC8 /* DRColorPickerWheelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660FC5DA2AC0131480F521C15D20AE4 /* DRColorPickerWheelViewController.m */; };
+		5195C51B2FB7E650ADEDE2AF643B2DFB /* GPBWireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0FC6F3C98D16876FE323C56FBD4ED3 /* GPBWireFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		526941CD8CA07173FAF4FEBC975DF31C /* GPBWellKnownTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA769CEA56102DE20A3D45D84D3D96B /* GPBWellKnownTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5541F2581A3CDA033155C99EFF41B190 /* GPBExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = EE91D4B16E2701291044C6EAC45F46E6 /* GPBExtensionRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56B1804DFC7F38DD410FA3AE1E52BC35 /* DRColorPickerHorizontalCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EC5CCCB67DD4A5EBDB214978183F8A8C /* DRColorPickerHorizontalCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59EF3665BDED79D7977AC0A71B90FAFA /* GPBCodedOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 92517E2136B707F521AE828BD0A4EE85 /* GPBCodedOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B8F036F7FAAF35FE98CE3FBFF25D72F /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F5B522DAC20436DC2FBCE71E5F751 /* GoogleToolboxForMac-dummy.m */; };
+		5E5EE74A6DD8EFB8F054E57537518B0F /* GPBWellKnownTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D618186F3B1F19852ECC5842AA5D4DF5 /* GPBWellKnownTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5F46C7CC2B372F9DC847CF9AE52E3F67 /* GPBCodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = FED3578408525F4A7CB7CAA28D809B75 /* GPBCodedInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		630D903D3E6FB64183A53DABDB31FCF9 /* DRColorPickerGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8DD4B956A905593A8309E7BA8A2694 /* DRColorPickerGridView.m */; };
+		668D34FBC1CD4FB29E26A1402EF60C9A /* DRColorPickerWheelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECBF5208E2A16723E16127610D0CC07 /* DRColorPickerWheelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66ECC6A7932396EEC631236C6093780C /* DRColorPickerGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E721ADF92A030432099F66B3CAFC1 /* DRColorPickerGridViewController.m */; };
+		68857A61EE5B58609E4D37D438F3D61F /* GPBCodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C301E1DE5130DB132D927AB462CE2CCE /* GPBCodedOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		69E5D4EA4DE7E78671E2675FC9A9973D /* Pods-MetalFlame tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59297F823D9196FD015DB58760DE8624 /* Pods-MetalFlame tvOS-dummy.m */; };
+		6A5451E67CBAAED4E81995B58427A175 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = E3CA624D2DBA9945F163D2D6D32A81D6 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B87612FCBB77FD8238BF5F1134CFE60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228D375C5C6CD3D3FAE2E16BC46F7E96 /* Foundation.framework */; };
+		6EA8472C2ABC1C478325BED2A678F4C8 /* DRColorPicker+UIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE92C065E077ACCC0A70FB9E33155A5 /* DRColorPicker+UIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709A2CDC5EFCF9CD859FF9130DECB7E2 /* GPBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED656ADF6F8DDC59843BED6493BAEF96 /* GPBDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		715B73782FCD30FD23F40C8208F67037 /* DRColorPickerColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7F245763575B1D5E0A32A0369C7D4C /* DRColorPickerColor.m */; };
+		74CC5D27D874367FDD6CD82DD04B069B /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 94645874EAF3DF5E724DD977979C240E /* Api.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7B3F69CE6A437A2AFDED6544DDAC84F0 /* DRColorPickerHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140620B2AB42CAB1014450972C5ED1C9 /* DRColorPickerHomeViewController.m */; };
+		7C39753D0026A74B4DAC812FB72D2100 /* DRColorPickerWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C539BD6BAC56D0B645DDAE9009D9E9 /* DRColorPickerWheelView.m */; };
+		7D583A86747E9BD854C046033F5A2515 /* Wrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = BF09F41265801E4346EF7820AEC75E06 /* Wrappers.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7EB79E11AE569041F6B48A086D4D956D /* DRColorPickerStore.h in Headers */ = {isa = PBXBuildFile; fileRef = ED13BBA8DEDBD6618EB0FF9A6A4698F6 /* DRColorPickerStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80D8F6DA84C6C6937647A915CB9EBC6F /* GPBDescriptor_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 160869B82E61642002ABCD325A57A080 /* GPBDescriptor_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A3D3CCC6135754FEE9AA056895683B /* DRColorPickerBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F281E5F1902158181800984026D1F182 /* DRColorPickerBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B95957BE6B1029EE9A6AC3E36686CBD /* DRColorPickerHomeView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8AEF4769FE3B9891D8121EF6E5EA28B /* DRColorPickerHomeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B9DD2C3C87779E60BA6CF48E4777762 /* DRColorPickerGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 559B31CC2709BDB0EF1C1CD96756CE38 /* DRColorPickerGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90906AC58824566DFC6875E1ED25E855 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E44B9D570C1731D83DACE81299593E /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9277F6B33D7AF5BA1E4D2377310A759D /* Struct.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFD5D03CA710616CE72CCF9D814370 /* Struct.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		94FBF47CFC1A589BE7BA9AE11E75FE78 /* DRColorPickerHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F690B377C583BC30D5CB0BD53015EA2 /* DRColorPickerHomeView.m */; };
+		99375787255D5D4BC48C278A57B1D20F /* GPBDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A63F233FE093868CE2FA0C169B4F45 /* GPBDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AF09DCFB0CB84FE5EDCB4FD9362F8F7 /* Timestamp.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 384F93596F2C68127EBF379490E1764F /* Timestamp.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9B308ECC0159E809F6CE192A1E7FE5A8 /* GPBCodedOutputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 51EC4BE5AC462BB98F0EB054BEB68016 /* GPBCodedOutputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BD9CF00C080F06CFE3F9B4548C77FDA /* DRColorPickerHorizontalCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564BC619B629E7A3B544F3841938E2D /* DRColorPickerHorizontalCollectionViewLayout.m */; };
+		9CD3805E7378768608681F38F363A9D7 /* Timestamp.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9637304E05B05F3E851B906443EAD0E3 /* Timestamp.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3B00AB896E6B6EBFA1A9E7CF7F63A9 /* GPBRuntimeTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 62F4D5DF8EAA9FD5ADA05ACF49B18EAC /* GPBRuntimeTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FCE3DA7548F85DE2D50E79A7E4924A8 /* GPBCodedInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BFE31C7DFD79E275A6CC0F9F261D4A1 /* GPBCodedInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A376EDED44D202E8140F2F4FF5118DA9 /* GPBRootObject_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A9C1FF54DDEF1FDB0E19FE0A1AEAC0 /* GPBRootObject_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3C3176FB075CF015C10FFC25D370EC4 /* GPBDictionary_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = E799C7F1E9D0B5BC5C1BAA338CC1BED6 /* GPBDictionary_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6BB76567148ADA6D0BB3456C2C715C0 /* Any.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA8A92F5D6FA06A2F3AE7BA831E1846 /* Any.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AC54F63C49DF1753C5242D8DA63B3E8A /* Api.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A21FC4F375643938A979F025E088AB /* Api.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF02DEBA58F5B25A1C6CAC55FB478C72 /* GPBUtilities_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BBDE38EF0FCE4D868370AC69A5ED13A /* GPBUtilities_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFB09342C2034CABFC6345518159EC31 /* Empty.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5EE66DA722E3CD52A11EDB30D5DAB8 /* Empty.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B1370D3C9757F84F4261A0FA09819337 /* GPBDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A009178A8B908C3156B5E0D3693A050 /* GPBDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B334DDEDD6A4D163F1F7FDFE6658FA5A /* GPBArray_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EF5483C6653C1FA189515237335456 /* GPBArray_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B456D77DAFA4601F13B7317F8EDC5739 /* Pods-MetalFlame OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DC4F8F257E54E35C00A1CD78A2A34D /* Pods-MetalFlame OSX-dummy.m */; };
+		B6EDC26F883B5A6814B07D100105F696 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A5F27E4517E1DACF0AEFBC279EC412 /* ImageIO.framework */; };
+		BE1D61896F435AD44A451E186DF12014 /* Wrappers.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 10453934953E863E7E1F950248AEAF17 /* Wrappers.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA6F02C048FCFAD362657AADAAAECB2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D92C83AC0218A9871A9F44AA53A8CF3 /* Cocoa.framework */; };
+		BF5B8AD0E3E1A5FE4A05C7F8B7D95E41 /* DRColorPicker+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 927D7236B602B3D42E0A3216C89A0162 /* DRColorPicker+UIColor.m */; };
+		C31EDC21031D4DA397549602FE71164C /* GPBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 719C19418224DD3FA9F7C46B66A29FE5 /* GPBArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C828F427BF57DBC52040E8B7A32ED858 /* DRColorPickerColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E118A902BA05095607F803C8D39926 /* DRColorPickerColorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8584A2462C43A7BC1934E477E4DD597 /* SourceContext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 664A872B37AAC49145161887699A0E91 /* SourceContext.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C92226EE6C5465232E9703145302E5BB /* GPBArray.h in Headers */ = {isa = PBXBuildFile; fileRef = C20D40724FDE335008D9B7A3706E25A0 /* GPBArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9C22EBA1A44EB842C636134778F95F5 /* GPBUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 212460DAFEA6755265A19F7858678AEF /* GPBUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8588A9DBC2BB56A1989E00E1F074AA /* DRColorPickerGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E3382F3CA79D89726AA2B04DEBDE8A /* DRColorPickerGridViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE793643063B71F80F32F0851FDABFA5 /* GTMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DDFE6BD71CC148D170F7CF3CC3E30 /* GTMLogger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CF5A1B4D7C44DC1C4AC8EBFF6F7CD327 /* DRColorPickerHueView.m in Sources */ = {isa = PBXBuildFile; fileRef = E601D987BC901DB39C541E4B6A629116 /* DRColorPickerHueView.m */; };
+		D1EEFBA98776D64F42B6B7A82CC8AC97 /* Duration.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF0C5AAD2A53877EBC95102634F70EC /* Duration.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D31447C70A4FDC6CD6074117BD7FFDEF /* GPBDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED3896D77B2536FBF0DF1E3CF2AE890 /* GPBDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D710CAE8D449F406838CCD651427D7 /* GPBCodedInputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2643F04A99DCF290FE753AB0A5E96A7A /* GPBCodedInputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6F22B8FF40F645FC1EC73D2AA06B3B9 /* GPBMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = E3160523EF917A81A083BD6935A6B04A /* GPBMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8374CD72C5AE1C54ECA08DEEBB953F0 /* SourceContext.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1312A6BC656BB3101BA9E9D4A9BE23 /* SourceContext.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCB7AD39A035F40925F2A11E21D6B412 /* GPBProtocolBuffers.h in Headers */ = {isa = PBXBuildFile; fileRef = EDACDECBBDDCA000D2BB13E4F8BAC419 /* GPBProtocolBuffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE3AB8806091AC74CE2A2AFE5C952702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CE6E42DE26B9FD66FB3B69EAB9D5A8 /* Foundation.framework */; };
+		DE8C819E20F49E47B669B94816C77B75 /* Any.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AE483BC68003EFD3D32B8C83C43550 /* Any.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB8411FE2F97E732E122DEE3CC30891 /* DRColorPickerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C831B9CF4709ADD2D64AB6E17B882D22 /* DRColorPickerBaseViewController.m */; };
+		DFBB474C0A1BB1B79BBBBA7E310A0CFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228D375C5C6CD3D3FAE2E16BC46F7E96 /* Foundation.framework */; };
+		E31D21C98EAED4F3180A9C991E1DCE79 /* GPBBootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE6752CA6DA5CBA9EBF411F4A13435C /* GPBBootstrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7A864328FFC7F6A93DE10E157381E0E /* DRColorPickerHueView.h in Headers */ = {isa = PBXBuildFile; fileRef = 627D04001B657B0CFF1A95FBCCD8297B /* DRColorPickerHueView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDC76C90AD83103A9AD842DFA1034B29 /* Empty.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFE28996583A0B3CF7983DBF8F86273 /* Empty.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF3A6C21CCEAB08FA4F591778422ED80 /* DRColorPickerStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 88599BE0344A8F678AE1B9B62BBE7068 /* DRColorPickerStore.m */; };
+		F1B1695A6AB8AFEC306AB371F2DCA21F /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 423D5EA3BA6E35C4FC0418B44B80C28B /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F46A079C5A882933385DFE6090956946 /* GPBExtensionInternals.m in Sources */ = {isa = PBXBuildFile; fileRef = 911E185CCE012477253F108C9A11D44D /* GPBExtensionInternals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F5CF185F9224684F05F96BA698DF3D80 /* DRColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D511424E2978651E6C47BD7A371180 /* DRColorPickerViewController.m */; };
+		F6CCF3604FEDA9778BE7EE3B67CDEE6D /* DRColorPickerGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7930372E03DF56BB3E17CFB84054DF /* DRColorPickerGridViewCell.m */; };
+		FF1D957380DBBD59509C7771DE76EB03 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = E079FE987B4B41A74C58166B0394D398 /* GPBUnknownFieldSet_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF751901480A4B38113207A7A3894D33 /* GPBUnknownField_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = DEFE05E97A8AA58A5B85AE082451EF25 /* GPBUnknownField_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		775ADF81B9D9827635390916DA0B3429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842A0D621639C1DDB8DAFE2CF36B978A;
+			remoteInfo = DRColorPicker;
+		};
+		966E395255AA0C7362577A8B1FA68792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB870BD1CBF2FEFE2CBA5EF41F55723;
+			remoteInfo = Protobuf;
+		};
+		F3CAEFAF41912F63382D648212FA4D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9D13261AF395CF5D54BB3203DF2A6E;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B346D21CF7A3FC21E5277389E62BFF /* DRColorPickerGridViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerGridViewController.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerGridViewController.h; sourceTree = "<group>"; };
+		05618C2BAD214A7689BEDE43C2403600 /* GTMLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMLogger.h; path = Foundation/GTMLogger.h; sourceTree = "<group>"; };
+		0586AFA719DB9E3B870C93C5B161D7D2 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		074E724F5BA749B13751B50BB50EEE65 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
+		086EC4D903D1095822DAFEDA8B990474 /* Pods-MetalFlame OSX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetalFlame OSX-resources.sh"; sourceTree = "<group>"; };
+		0ED3896D77B2536FBF0DF1E3CF2AE890 /* GPBDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor.h; path = objectivec/GPBDescriptor.h; sourceTree = "<group>"; };
+		10453934953E863E7E1F950248AEAF17 /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Wrappers.pbobjc.h; path = objectivec/google/protobuf/Wrappers.pbobjc.h; sourceTree = "<group>"; };
+		140620B2AB42CAB1014450972C5ED1C9 /* DRColorPickerHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerHomeViewController.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerHomeViewController.m; sourceTree = "<group>"; };
+		1463547E23E1DF2AF468B7163137134F /* Pods-MetalFlame tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetalFlame tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		14E3382F3CA79D89726AA2B04DEBDE8A /* DRColorPickerGridViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerGridViewCell.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerGridViewCell.h; sourceTree = "<group>"; };
+		15105F92F0B3A0367743473C9DC26D34 /* DRColorPickerColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerColor.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerColor.h; sourceTree = "<group>"; };
+		160869B82E61642002ABCD325A57A080 /* GPBDescriptor_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor_PackagePrivate.h; path = objectivec/GPBDescriptor_PackagePrivate.h; sourceTree = "<group>"; };
+		168159F0BF745F6E6F52B3CBF2F25E99 /* libDRColorPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDRColorPicker.a; path = libDRColorPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D51AEB653A1248BBEBFD08C84BB885 /* DRColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		1A093574DC69D944EF90A80607457EC5 /* DRColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPicker.h; path = DRColorPickerExample/DRColorPicker/DRColorPicker.h; sourceTree = "<group>"; };
+		1C8DD4B956A905593A8309E7BA8A2694 /* DRColorPickerGridView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerGridView.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerGridView.m; sourceTree = "<group>"; };
+		1F5EE66DA722E3CD52A11EDB30D5DAB8 /* Empty.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.pbobjc.m; path = objectivec/google/protobuf/Empty.pbobjc.m; sourceTree = "<group>"; };
+		212460DAFEA6755265A19F7858678AEF /* GPBUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities.h; path = objectivec/GPBUtilities.h; sourceTree = "<group>"; };
+		215D6C8307A62FCF7DB2E949EF83ADF4 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		228D375C5C6CD3D3FAE2E16BC46F7E96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		23F23EBE948F1F477E7B7F645ECFF241 /* GPBUnknownField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownField.m; path = objectivec/GPBUnknownField.m; sourceTree = "<group>"; };
+		24BCC2319A435C979F3FABAA00900EE6 /* libProtobuf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libProtobuf.a; path = libProtobuf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E8172DEF65F993C6021B17F8803E85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2643F04A99DCF290FE753AB0A5E96A7A /* GPBCodedInputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream_PackagePrivate.h; path = objectivec/GPBCodedInputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		28033A30A7EA0EA0EDF705BD2C3E2388 /* GPBUnknownFieldSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet.h; path = objectivec/GPBUnknownFieldSet.h; sourceTree = "<group>"; };
+		2A7930372E03DF56BB3E17CFB84054DF /* DRColorPickerGridViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerGridViewCell.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerGridViewCell.m; sourceTree = "<group>"; };
+		2B41AFD7178F4E932689D512238F2855 /* Pods-MetalFlame iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetalFlame iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2BFE31C7DFD79E275A6CC0F9F261D4A1 /* GPBCodedInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream.h; path = objectivec/GPBCodedInputStream.h; sourceTree = "<group>"; };
+		2CE5B3DCA6E6FB68FB562F4A10B90CDF /* DRColorPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerViewController.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerViewController.h; sourceTree = "<group>"; };
+		2DA769CEA56102DE20A3D45D84D3D96B /* GPBWellKnownTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWellKnownTypes.h; path = objectivec/GPBWellKnownTypes.h; sourceTree = "<group>"; };
+		2E65E1736C6E28C7D0C3B9B430777CB8 /* Struct.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Struct.pbobjc.h; path = objectivec/google/protobuf/Struct.pbobjc.h; sourceTree = "<group>"; };
+		2FF08EDFA862BA636D2A55078CA79CBC /* Protobuf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Protobuf-dummy.m"; sourceTree = "<group>"; };
+		32A21FC4F375643938A979F025E088AB /* Api.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Api.pbobjc.h; path = objectivec/google/protobuf/Api.pbobjc.h; sourceTree = "<group>"; };
+		381AD3CF77A8A5CEA44DBEDABB7F54FF /* Pods-MetalFlame iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalFlame iOS.release.xcconfig"; sourceTree = "<group>"; };
+		384F93596F2C68127EBF379490E1764F /* Timestamp.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Timestamp.pbobjc.m; path = objectivec/google/protobuf/Timestamp.pbobjc.m; sourceTree = "<group>"; };
+		38D511424E2978651E6C47BD7A371180 /* DRColorPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerViewController.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerViewController.m; sourceTree = "<group>"; };
+		3AF0C5AAD2A53877EBC95102634F70EC /* Duration.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Duration.pbobjc.h; path = objectivec/google/protobuf/Duration.pbobjc.h; sourceTree = "<group>"; };
+		3DFE28996583A0B3CF7983DBF8F86273 /* Empty.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Empty.pbobjc.h; path = objectivec/google/protobuf/Empty.pbobjc.h; sourceTree = "<group>"; };
+		3ECBF5208E2A16723E16127610D0CC07 /* DRColorPickerWheelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerWheelView.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerWheelView.h; sourceTree = "<group>"; };
+		3F690B377C583BC30D5CB0BD53015EA2 /* DRColorPickerHomeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerHomeView.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerHomeView.m; sourceTree = "<group>"; };
+		423D5EA3BA6E35C4FC0418B44B80C28B /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		4261284AB21F20B4D1068F3B0D668C66 /* Pods-MetalFlame OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalFlame OSX.release.xcconfig"; sourceTree = "<group>"; };
+		42AE483BC68003EFD3D32B8C83C43550 /* Any.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Any.pbobjc.h; path = objectivec/google/protobuf/Any.pbobjc.h; sourceTree = "<group>"; };
+		4487C4D8DB2BADED9501F51E5850F428 /* FieldMask.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FieldMask.pbobjc.m; path = objectivec/google/protobuf/FieldMask.pbobjc.m; sourceTree = "<group>"; };
+		455E9850B87F79F52D29AFC051113B0D /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		4564BC619B629E7A3B544F3841938E2D /* DRColorPickerHorizontalCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerHorizontalCollectionViewLayout.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerHorizontalCollectionViewLayout.m; sourceTree = "<group>"; };
+		45EF5483C6653C1FA189515237335456 /* GPBArray_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBArray_PackagePrivate.h; path = objectivec/GPBArray_PackagePrivate.h; sourceTree = "<group>"; };
+		4660FC5DA2AC0131480F521C15D20AE4 /* DRColorPickerWheelViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerWheelViewController.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerWheelViewController.m; sourceTree = "<group>"; };
+		482B9E7EACD751050F3F419592FF5FD1 /* GPBUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUtilities.m; path = objectivec/GPBUtilities.m; sourceTree = "<group>"; };
+		488C682819F5D2DC4E40C8680C9A440F /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		49A3BEE1342E4DD57A9043C70E04B7E9 /* GPBWireFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWireFormat.h; path = objectivec/GPBWireFormat.h; sourceTree = "<group>"; };
+		49C539BD6BAC56D0B645DDAE9009D9E9 /* DRColorPickerWheelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerWheelView.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerWheelView.m; sourceTree = "<group>"; };
+		4D92C83AC0218A9871A9F44AA53A8CF3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		4FC2FF662D70F4BDB4FF23EA790A4E1A /* Pods-MetalFlame iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalFlame iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4FD7E6FBCEC115A3E2A8B1334BC50ED8 /* Duration.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Duration.pbobjc.m; path = objectivec/google/protobuf/Duration.pbobjc.m; sourceTree = "<group>"; };
+		51EC4BE5AC462BB98F0EB054BEB68016 /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream_PackagePrivate.h; path = objectivec/GPBCodedOutputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		5437F8CC88A8AE33FEBF930EA753C1CE /* Type.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.pbobjc.h; path = objectivec/google/protobuf/Type.pbobjc.h; sourceTree = "<group>"; };
+		559B31CC2709BDB0EF1C1CD96756CE38 /* DRColorPickerGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerGridView.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerGridView.h; sourceTree = "<group>"; };
+		59297F823D9196FD015DB58760DE8624 /* Pods-MetalFlame tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetalFlame tvOS-dummy.m"; sourceTree = "<group>"; };
+		5A24186A093B0C57C3601F755275CB8A /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		5B17419343F81B37AFE81E5F4EA0AEA3 /* DRColorPickerColorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerColorView.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerColorView.m; sourceTree = "<group>"; };
+		5CA8A92F5D6FA06A2F3AE7BA831E1846 /* Any.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Any.pbobjc.m; path = objectivec/google/protobuf/Any.pbobjc.m; sourceTree = "<group>"; };
+		5CE1409B950D0E8E983E73738A78F51A /* Pods-MetalFlame iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetalFlame iOS-dummy.m"; sourceTree = "<group>"; };
+		5DE92C065E077ACCC0A70FB9E33155A5 /* DRColorPicker+UIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DRColorPicker+UIColor.h"; path = "DRColorPickerExample/DRColorPicker/DRColorPicker+UIColor.h"; sourceTree = "<group>"; };
+		5FE6752CA6DA5CBA9EBF411F4A13435C /* GPBBootstrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBBootstrap.h; path = objectivec/GPBBootstrap.h; sourceTree = "<group>"; };
+		627D04001B657B0CFF1A95FBCCD8297B /* DRColorPickerHueView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerHueView.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerHueView.h; sourceTree = "<group>"; };
+		62F4D5DF8EAA9FD5ADA05ACF49B18EAC /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRuntimeTypes.h; path = objectivec/GPBRuntimeTypes.h; sourceTree = "<group>"; };
+		664A872B37AAC49145161887699A0E91 /* SourceContext.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SourceContext.pbobjc.m; path = objectivec/google/protobuf/SourceContext.pbobjc.m; sourceTree = "<group>"; };
+		6E0FC6F3C98D16876FE323C56FBD4ED3 /* GPBWireFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWireFormat.m; path = objectivec/GPBWireFormat.m; sourceTree = "<group>"; };
+		719C19418224DD3FA9F7C46B66A29FE5 /* GPBArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBArray.m; path = objectivec/GPBArray.m; sourceTree = "<group>"; };
+		75BFA5D002B4F055036E52F8C42B0CEB /* Pods-MetalFlame OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalFlame OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		75C566A4DD5F7B0A1E5CB603D604AA2C /* GPBUnknownField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField.h; path = objectivec/GPBUnknownField.h; sourceTree = "<group>"; };
+		78E1303FB8EC81C6BF599AE3EBDFBEBB /* Pods-MetalFlame OSX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetalFlame OSX-frameworks.sh"; sourceTree = "<group>"; };
+		7A009178A8B908C3156B5E0D3693A050 /* GPBDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDictionary.h; path = objectivec/GPBDictionary.h; sourceTree = "<group>"; };
+		7BBDE38EF0FCE4D868370AC69A5ED13A /* GPBUtilities_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities_PackagePrivate.h; path = objectivec/GPBUtilities_PackagePrivate.h; sourceTree = "<group>"; };
+		7C7D20267BFBEF8E0D029F36E3A6674B /* DRColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRColorPicker.xcconfig; sourceTree = "<group>"; };
+		7D977C3E2D6B0CA4095289C5090ABB4B /* Pods-MetalFlame OSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetalFlame OSX-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86A9C1FF54DDEF1FDB0E19FE0A1AEAC0 /* GPBRootObject_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRootObject_PackagePrivate.h; path = objectivec/GPBRootObject_PackagePrivate.h; sourceTree = "<group>"; };
+		88599BE0344A8F678AE1B9B62BBE7068 /* DRColorPickerStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerStore.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerStore.m; sourceTree = "<group>"; };
+		8EB5D7C68128B587552322AA08A0261A /* Pods-MetalFlame iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetalFlame iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		911E185CCE012477253F108C9A11D44D /* GPBExtensionInternals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionInternals.m; path = objectivec/GPBExtensionInternals.m; sourceTree = "<group>"; };
+		92517E2136B707F521AE828BD0A4EE85 /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream.h; path = objectivec/GPBCodedOutputStream.h; sourceTree = "<group>"; };
+		927D7236B602B3D42E0A3216C89A0162 /* DRColorPicker+UIColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DRColorPicker+UIColor.m"; path = "DRColorPickerExample/DRColorPicker/DRColorPicker+UIColor.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9436535F04D8DDB8939DCA7D06631D03 /* Type.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Type.pbobjc.m; path = objectivec/google/protobuf/Type.pbobjc.m; sourceTree = "<group>"; };
+		94645874EAF3DF5E724DD977979C240E /* Api.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Api.pbobjc.m; path = objectivec/google/protobuf/Api.pbobjc.m; sourceTree = "<group>"; };
+		9637304E05B05F3E851B906443EAD0E3 /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Timestamp.pbobjc.h; path = objectivec/google/protobuf/Timestamp.pbobjc.h; sourceTree = "<group>"; };
+		9903B9D933FEB2985D008212E50E0C47 /* GPBMessage_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBMessage_PackagePrivate.h; path = objectivec/GPBMessage_PackagePrivate.h; sourceTree = "<group>"; };
+		99EFD5D03CA710616CE72CCF9D814370 /* Struct.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Struct.pbobjc.m; path = objectivec/google/protobuf/Struct.pbobjc.m; sourceTree = "<group>"; };
+		9C112204A692B820EAA50C1461231516 /* DRColorPickerHueViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerHueViewController.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerHueViewController.m; sourceTree = "<group>"; };
+		9C50302970199B53DDD8CD3A9B7E6784 /* Protobuf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Protobuf-prefix.pch"; sourceTree = "<group>"; };
+		9C64254EE7E9A5221E99B5010E4980A3 /* Pods-MetalFlame tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetalFlame tvOS-resources.sh"; sourceTree = "<group>"; };
+		A5253E9F9CB2DEB208F4E9CAE92A2417 /* libPods-MetalFlame tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MetalFlame tvOS.a"; path = "libPods-MetalFlame tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D985D867F2C0B418FEFF4ED1565CA6 /* DRColorPickerHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerHomeViewController.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerHomeViewController.h; sourceTree = "<group>"; };
+		A8AEF4769FE3B9891D8121EF6E5EA28B /* DRColorPickerHomeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerHomeView.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerHomeView.h; sourceTree = "<group>"; };
+		ABB6E5F301DA78519EA253D031F9F749 /* Pods-MetalFlame tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalFlame tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		AE81AC33C445114A888621557250E59D /* FieldMask.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FieldMask.pbobjc.h; path = objectivec/google/protobuf/FieldMask.pbobjc.h; sourceTree = "<group>"; };
+		B2116CFC2B17665006221EAD6AFEEB98 /* Pods-MetalFlame tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalFlame tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B5CE6E42DE26B9FD66FB3B69EAB9D5A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B5E44B9D570C1731D83DACE81299593E /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		B69B275312286865EC297947EAE96BC5 /* libPods-MetalFlame OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MetalFlame OSX.a"; path = "libPods-MetalFlame OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77F5B522DAC20436DC2FBCE71E5F751 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		B82FE01A1C741820CCF765C37E43846B /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		B8A5F27E4517E1DACF0AEFBC279EC412 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		BF09F41265801E4346EF7820AEC75E06 /* Wrappers.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Wrappers.pbobjc.m; path = objectivec/google/protobuf/Wrappers.pbobjc.m; sourceTree = "<group>"; };
+		BF64DAE429AC0DB8F4697CD8BCEF43B1 /* Pods-MetalFlame tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetalFlame tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		C20D40724FDE335008D9B7A3706E25A0 /* GPBArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBArray.h; path = objectivec/GPBArray.h; sourceTree = "<group>"; };
+		C301E1DE5130DB132D927AB462CE2CCE /* GPBCodedOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBCodedOutputStream.m; path = objectivec/GPBCodedOutputStream.m; sourceTree = "<group>"; };
+		C4438807FE2E73AB5A6A70ACDD20B635 /* GPBRootObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRootObject.h; path = objectivec/GPBRootObject.h; sourceTree = "<group>"; };
+		C81DDFE6BD71CC148D170F7CF3CC3E30 /* GTMLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMLogger.m; path = Foundation/GTMLogger.m; sourceTree = "<group>"; };
+		C831B9CF4709ADD2D64AB6E17B882D22 /* DRColorPickerBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerBaseViewController.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerBaseViewController.m; sourceTree = "<group>"; };
+		C9FE3FADFF49C87211873741E8EDAF46 /* libPods-MetalFlame iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MetalFlame iOS.a"; path = "libPods-MetalFlame iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7F245763575B1D5E0A32A0369C7D4C /* DRColorPickerColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerColor.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerColor.m; sourceTree = "<group>"; };
+		CEC8C1DD17239F6563A2524E56912857 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		D5E33B143D48E38576E1594ABF505844 /* Pods-MetalFlame tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetalFlame tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D618186F3B1F19852ECC5842AA5D4DF5 /* GPBWellKnownTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWellKnownTypes.m; path = objectivec/GPBWellKnownTypes.m; sourceTree = "<group>"; };
+		D6DC4F8F257E54E35C00A1CD78A2A34D /* Pods-MetalFlame OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetalFlame OSX-dummy.m"; sourceTree = "<group>"; };
+		D796893CF5FCE2FC55792BC9EF6F40B6 /* Pods-MetalFlame iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetalFlame iOS-resources.sh"; sourceTree = "<group>"; };
+		D8F320E0D096DC37AFE752B54A805735 /* GPBUnknownFieldSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownFieldSet.m; path = objectivec/GPBUnknownFieldSet.m; sourceTree = "<group>"; };
+		D91E721ADF92A030432099F66B3CAFC1 /* DRColorPickerGridViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerGridViewController.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerGridViewController.m; sourceTree = "<group>"; };
+		D97F4CA41B61BAF9F7B568C106DFC179 /* GPBMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBMessage.m; path = objectivec/GPBMessage.m; sourceTree = "<group>"; };
+		DAD05031546C53A82A76FA287521AC8A /* Pods-MetalFlame iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetalFlame iOS-frameworks.sh"; sourceTree = "<group>"; };
+		DC1C05300D826E5E74B1503D1923596F /* DRColorPicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DRColorPicker.bundle; path = DRColorPickerExample/DRColorPicker/DRColorPicker.bundle; sourceTree = "<group>"; };
+		DC50DAEBBC89ACDA3AB360B598BE9049 /* DRColorPickerWheelViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerWheelViewController.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerWheelViewController.h; sourceTree = "<group>"; };
+		DE1312A6BC656BB3101BA9E9D4A9BE23 /* SourceContext.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SourceContext.pbobjc.h; path = objectivec/google/protobuf/SourceContext.pbobjc.h; sourceTree = "<group>"; };
+		DEFE05E97A8AA58A5B85AE082451EF25 /* GPBUnknownField_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField_PackagePrivate.h; path = objectivec/GPBUnknownField_PackagePrivate.h; sourceTree = "<group>"; };
+		E0267418D68BC49512FDF51ACD6C5811 /* Pods-MetalFlame OSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetalFlame OSX-acknowledgements.plist"; sourceTree = "<group>"; };
+		E079FE987B4B41A74C58166B0394D398 /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet_PackagePrivate.h; path = objectivec/GPBUnknownFieldSet_PackagePrivate.h; sourceTree = "<group>"; };
+		E175C3BCD2DBFAFFDAE0C1548F6C312D /* GPBProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers_RuntimeSupport.h; path = objectivec/GPBProtocolBuffers_RuntimeSupport.h; sourceTree = "<group>"; };
+		E2A25B52F22D5AD3C2344F850FB4B07D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E3160523EF917A81A083BD6935A6B04A /* GPBMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBMessage.h; path = objectivec/GPBMessage.h; sourceTree = "<group>"; };
+		E38336BB8304861B20A37A4BAF5BE7F5 /* DRColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRColorPicker-dummy.m"; sourceTree = "<group>"; };
+		E3CA624D2DBA9945F163D2D6D32A81D6 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		E40B7E8CA475EB2ABF153E6709D2CE35 /* Protobuf.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Protobuf.xcconfig; sourceTree = "<group>"; };
+		E53157419E565BDBA0CBE294120D3852 /* DRColorPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPicker.m; path = DRColorPickerExample/DRColorPicker/DRColorPicker.m; sourceTree = "<group>"; };
+		E601D987BC901DB39C541E4B6A629116 /* DRColorPickerHueView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRColorPickerHueView.m; path = DRColorPickerExample/DRColorPicker/DRColorPickerHueView.m; sourceTree = "<group>"; };
+		E6024B11D0EA2FAC2F209C9D8D120DD2 /* DRColorPickerHueViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerHueViewController.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerHueViewController.h; sourceTree = "<group>"; };
+		E794DAD6B3059BFBBAD611321717B0EB /* GPBRootObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBRootObject.m; path = objectivec/GPBRootObject.m; sourceTree = "<group>"; };
+		E799C7F1E9D0B5BC5C1BAA338CC1BED6 /* GPBDictionary_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDictionary_PackagePrivate.h; path = objectivec/GPBDictionary_PackagePrivate.h; sourceTree = "<group>"; };
+		E7EDC875A53EB564F5C263AEFE79FC47 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		E8A63F233FE093868CE2FA0C169B4F45 /* GPBDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBDictionary.m; path = objectivec/GPBDictionary.m; sourceTree = "<group>"; };
+		EC5CCCB67DD4A5EBDB214978183F8A8C /* DRColorPickerHorizontalCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerHorizontalCollectionViewLayout.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerHorizontalCollectionViewLayout.h; sourceTree = "<group>"; };
+		ECEC2303D064113AEA8EE4691464C273 /* libGoogleToolboxForMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGoogleToolboxForMac.a; path = libGoogleToolboxForMac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED13BBA8DEDBD6618EB0FF9A6A4698F6 /* DRColorPickerStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerStore.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerStore.h; sourceTree = "<group>"; };
+		ED656ADF6F8DDC59843BED6493BAEF96 /* GPBDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBDescriptor.m; path = objectivec/GPBDescriptor.m; sourceTree = "<group>"; };
+		EDACDECBBDDCA000D2BB13E4F8BAC419 /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers.h; path = objectivec/GPBProtocolBuffers.h; sourceTree = "<group>"; };
+		EE91D4B16E2701291044C6EAC45F46E6 /* GPBExtensionRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBExtensionRegistry.h; path = objectivec/GPBExtensionRegistry.h; sourceTree = "<group>"; };
+		EF611382CE07386D226858614A21C1FD /* GPBExtensionInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBExtensionInternals.h; path = objectivec/GPBExtensionInternals.h; sourceTree = "<group>"; };
+		EF64E0D69684FFA285C31DA6AA72798A /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		EF67F614E43BD32409F3B67F90D871FA /* GPBExtensionRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionRegistry.m; path = objectivec/GPBExtensionRegistry.m; sourceTree = "<group>"; };
+		F281E5F1902158181800984026D1F182 /* DRColorPickerBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerBaseViewController.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerBaseViewController.h; sourceTree = "<group>"; };
+		F8E118A902BA05095607F803C8D39926 /* DRColorPickerColorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRColorPickerColorView.h; path = DRColorPickerExample/DRColorPicker/DRColorPickerColorView.h; sourceTree = "<group>"; };
+		FED3578408525F4A7CB7CAA28D809B75 /* GPBCodedInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBCodedInputStream.m; path = objectivec/GPBCodedInputStream.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45B15FCA4A050C413107037B8195D0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B87612FCBB77FD8238BF5F1134CFE60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6424825C08C7705D1EA7F9ED0F91A547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3AB8806091AC74CE2A2AFE5C952702 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD215334409363FBBC48E48118C5C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383C73D6B9216B61B431A81B1EB356EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FDE864A2BF4C7F7EF7AAECEA5A03BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBB474C0A1BB1B79BBBBA7E310A0CFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E035C106102BDF4253F8A8AD2D93EC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326A94430916D36D8AAD4A142EA8BFBA /* Foundation.framework in Frameworks */,
+				B6EDC26F883B5A6814B07D100105F696 /* ImageIO.framework in Frameworks */,
+				0F90B55E42025CEBE8EA19EA89FFC6A8 /* QuartzCore.framework in Frameworks */,
+				171571746A9DBB0DE96D834CD7FB1950 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B0E0B98B0EBC8DC169787381191E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6F02C048FCFAD362657AADAAAECB2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED601516D705BF556DE063177D78CE8 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				C01F441270B809883F94D3D5D57486B4 /* Defines */,
+				371746B552124ECD9B9F76100374E8C9 /* Logger */,
+				AC0D0BC527FC220F5C34704AABEC6494 /* NSData+zlib */,
+				47EDA880023BF4351E947B716590DABF /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		1033F95AFE56A32251F17E8370F06227 /* Protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				42AE483BC68003EFD3D32B8C83C43550 /* Any.pbobjc.h */,
+				5CA8A92F5D6FA06A2F3AE7BA831E1846 /* Any.pbobjc.m */,
+				32A21FC4F375643938A979F025E088AB /* Api.pbobjc.h */,
+				94645874EAF3DF5E724DD977979C240E /* Api.pbobjc.m */,
+				3AF0C5AAD2A53877EBC95102634F70EC /* Duration.pbobjc.h */,
+				4FD7E6FBCEC115A3E2A8B1334BC50ED8 /* Duration.pbobjc.m */,
+				3DFE28996583A0B3CF7983DBF8F86273 /* Empty.pbobjc.h */,
+				1F5EE66DA722E3CD52A11EDB30D5DAB8 /* Empty.pbobjc.m */,
+				AE81AC33C445114A888621557250E59D /* FieldMask.pbobjc.h */,
+				4487C4D8DB2BADED9501F51E5850F428 /* FieldMask.pbobjc.m */,
+				C20D40724FDE335008D9B7A3706E25A0 /* GPBArray.h */,
+				719C19418224DD3FA9F7C46B66A29FE5 /* GPBArray.m */,
+				45EF5483C6653C1FA189515237335456 /* GPBArray_PackagePrivate.h */,
+				5FE6752CA6DA5CBA9EBF411F4A13435C /* GPBBootstrap.h */,
+				2BFE31C7DFD79E275A6CC0F9F261D4A1 /* GPBCodedInputStream.h */,
+				FED3578408525F4A7CB7CAA28D809B75 /* GPBCodedInputStream.m */,
+				2643F04A99DCF290FE753AB0A5E96A7A /* GPBCodedInputStream_PackagePrivate.h */,
+				92517E2136B707F521AE828BD0A4EE85 /* GPBCodedOutputStream.h */,
+				C301E1DE5130DB132D927AB462CE2CCE /* GPBCodedOutputStream.m */,
+				51EC4BE5AC462BB98F0EB054BEB68016 /* GPBCodedOutputStream_PackagePrivate.h */,
+				0ED3896D77B2536FBF0DF1E3CF2AE890 /* GPBDescriptor.h */,
+				ED656ADF6F8DDC59843BED6493BAEF96 /* GPBDescriptor.m */,
+				160869B82E61642002ABCD325A57A080 /* GPBDescriptor_PackagePrivate.h */,
+				7A009178A8B908C3156B5E0D3693A050 /* GPBDictionary.h */,
+				E8A63F233FE093868CE2FA0C169B4F45 /* GPBDictionary.m */,
+				E799C7F1E9D0B5BC5C1BAA338CC1BED6 /* GPBDictionary_PackagePrivate.h */,
+				EF611382CE07386D226858614A21C1FD /* GPBExtensionInternals.h */,
+				911E185CCE012477253F108C9A11D44D /* GPBExtensionInternals.m */,
+				EE91D4B16E2701291044C6EAC45F46E6 /* GPBExtensionRegistry.h */,
+				EF67F614E43BD32409F3B67F90D871FA /* GPBExtensionRegistry.m */,
+				E3160523EF917A81A083BD6935A6B04A /* GPBMessage.h */,
+				D97F4CA41B61BAF9F7B568C106DFC179 /* GPBMessage.m */,
+				9903B9D933FEB2985D008212E50E0C47 /* GPBMessage_PackagePrivate.h */,
+				EDACDECBBDDCA000D2BB13E4F8BAC419 /* GPBProtocolBuffers.h */,
+				E175C3BCD2DBFAFFDAE0C1548F6C312D /* GPBProtocolBuffers_RuntimeSupport.h */,
+				C4438807FE2E73AB5A6A70ACDD20B635 /* GPBRootObject.h */,
+				E794DAD6B3059BFBBAD611321717B0EB /* GPBRootObject.m */,
+				86A9C1FF54DDEF1FDB0E19FE0A1AEAC0 /* GPBRootObject_PackagePrivate.h */,
+				62F4D5DF8EAA9FD5ADA05ACF49B18EAC /* GPBRuntimeTypes.h */,
+				75C566A4DD5F7B0A1E5CB603D604AA2C /* GPBUnknownField.h */,
+				23F23EBE948F1F477E7B7F645ECFF241 /* GPBUnknownField.m */,
+				DEFE05E97A8AA58A5B85AE082451EF25 /* GPBUnknownField_PackagePrivate.h */,
+				28033A30A7EA0EA0EDF705BD2C3E2388 /* GPBUnknownFieldSet.h */,
+				D8F320E0D096DC37AFE752B54A805735 /* GPBUnknownFieldSet.m */,
+				E079FE987B4B41A74C58166B0394D398 /* GPBUnknownFieldSet_PackagePrivate.h */,
+				212460DAFEA6755265A19F7858678AEF /* GPBUtilities.h */,
+				482B9E7EACD751050F3F419592FF5FD1 /* GPBUtilities.m */,
+				7BBDE38EF0FCE4D868370AC69A5ED13A /* GPBUtilities_PackagePrivate.h */,
+				2DA769CEA56102DE20A3D45D84D3D96B /* GPBWellKnownTypes.h */,
+				D618186F3B1F19852ECC5842AA5D4DF5 /* GPBWellKnownTypes.m */,
+				49A3BEE1342E4DD57A9043C70E04B7E9 /* GPBWireFormat.h */,
+				6E0FC6F3C98D16876FE323C56FBD4ED3 /* GPBWireFormat.m */,
+				DE1312A6BC656BB3101BA9E9D4A9BE23 /* SourceContext.pbobjc.h */,
+				664A872B37AAC49145161887699A0E91 /* SourceContext.pbobjc.m */,
+				2E65E1736C6E28C7D0C3B9B430777CB8 /* Struct.pbobjc.h */,
+				99EFD5D03CA710616CE72CCF9D814370 /* Struct.pbobjc.m */,
+				9637304E05B05F3E851B906443EAD0E3 /* Timestamp.pbobjc.h */,
+				384F93596F2C68127EBF379490E1764F /* Timestamp.pbobjc.m */,
+				5437F8CC88A8AE33FEBF930EA753C1CE /* Type.pbobjc.h */,
+				9436535F04D8DDB8939DCA7D06631D03 /* Type.pbobjc.m */,
+				10453934953E863E7E1F950248AEAF17 /* Wrappers.pbobjc.h */,
+				BF09F41265801E4346EF7820AEC75E06 /* Wrappers.pbobjc.m */,
+				4B5AA03BC693942AA333CA37738237DA /* Support Files */,
+			);
+			name = Protobuf;
+			path = Protobuf;
+			sourceTree = "<group>";
+		};
+		12A25FE032D5DE4ACD19CFD72CE45EA8 /* Pods-MetalFlame OSX */ = {
+			isa = PBXGroup;
+			children = (
+				7D977C3E2D6B0CA4095289C5090ABB4B /* Pods-MetalFlame OSX-acknowledgements.markdown */,
+				E0267418D68BC49512FDF51ACD6C5811 /* Pods-MetalFlame OSX-acknowledgements.plist */,
+				D6DC4F8F257E54E35C00A1CD78A2A34D /* Pods-MetalFlame OSX-dummy.m */,
+				78E1303FB8EC81C6BF599AE3EBDFBEBB /* Pods-MetalFlame OSX-frameworks.sh */,
+				086EC4D903D1095822DAFEDA8B990474 /* Pods-MetalFlame OSX-resources.sh */,
+				75BFA5D002B4F055036E52F8C42B0CEB /* Pods-MetalFlame OSX.debug.xcconfig */,
+				4261284AB21F20B4D1068F3B0D668C66 /* Pods-MetalFlame OSX.release.xcconfig */,
+			);
+			name = "Pods-MetalFlame OSX";
+			path = "Target Support Files/Pods-MetalFlame OSX";
+			sourceTree = "<group>";
+		};
+		15E5FF762E1E682F68BC250A05D53DE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168159F0BF745F6E6F52B3CBF2F25E99 /* libDRColorPicker.a */,
+				ECEC2303D064113AEA8EE4691464C273 /* libGoogleToolboxForMac.a */,
+				C9FE3FADFF49C87211873741E8EDAF46 /* libPods-MetalFlame iOS.a */,
+				B69B275312286865EC297947EAE96BC5 /* libPods-MetalFlame OSX.a */,
+				A5253E9F9CB2DEB208F4E9CAE92A2417 /* libPods-MetalFlame tvOS.a */,
+				24BCC2319A435C979F3FABAA00900EE6 /* libProtobuf.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		371746B552124ECD9B9F76100374E8C9 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				05618C2BAD214A7689BEDE43C2403600 /* GTMLogger.h */,
+				C81DDFE6BD71CC148D170F7CF3CC3E30 /* GTMLogger.m */,
+			);
+			name = Logger;
+			sourceTree = "<group>";
+		};
+		47EDA880023BF4351E947B716590DABF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0586AFA719DB9E3B870C93C5B161D7D2 /* GoogleToolboxForMac.xcconfig */,
+				B77F5B522DAC20436DC2FBCE71E5F751 /* GoogleToolboxForMac-dummy.m */,
+				EF64E0D69684FFA285C31DA6AA72798A /* GoogleToolboxForMac-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		4B5AA03BC693942AA333CA37738237DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40B7E8CA475EB2ABF153E6709D2CE35 /* Protobuf.xcconfig */,
+				2FF08EDFA862BA636D2A55078CA79CBC /* Protobuf-dummy.m */,
+				9C50302970199B53DDD8CD3A9B7E6784 /* Protobuf-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Protobuf";
+			sourceTree = "<group>";
+		};
+		53AF9A2D5F16847421AE784198145382 /* FirebaseMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				FA689217D11FD3FFF50876100CD44DE2 /* Frameworks */,
+			);
+			name = FirebaseMessaging;
+			path = FirebaseMessaging;
+			sourceTree = "<group>";
+		};
+		55E5F71FD46DABFF18C336B0DB07631F /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				F060123D6C5F47A71AADB10ECAD2FEA9 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		56343992054317365B05CA71166A79F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C7D20267BFBEF8E0D029F36E3A6674B /* DRColorPicker.xcconfig */,
+				E38336BB8304861B20A37A4BAF5BE7F5 /* DRColorPicker-dummy.m */,
+				17D51AEB653A1248BBEBFD08C84BB885 /* DRColorPicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DRColorPicker";
+			sourceTree = "<group>";
+		};
+		5E14127B1CAADAD39F2C126C7D48C8B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC8C1DD17239F6563A2524E56912857 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65CB9D15B2B1456CE93E1C425BB08E39 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				488C682819F5D2DC4E40C8680C9A440F /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		74BCD38D3A1A5484929798BBA17EA55E /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B5CE6E42DE26B9FD66FB3B69EAB9D5A8 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B1C29C6A0B2DE60368FF3D54DB83C0F5 /* Frameworks */,
+				85812FF1900F66C904489EF9DABA5529 /* Pods */,
+				15E5FF762E1E682F68BC250A05D53DE9 /* Products */,
+				914B3F4C61F98A3832DD14DE2EFDFB65 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85812FF1900F66C904489EF9DABA5529 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C4F769A40BAC9B4EE92BF8D817D7D /* DRColorPicker */,
+				C6B0B9B3F33FD28F15686FBED5C3843D /* Firebase */,
+				F0F1305018CA047D270858F756C10AD7 /* FirebaseAnalytics */,
+				55E5F71FD46DABFF18C336B0DB07631F /* FirebaseCore */,
+				CEBD094B0EF00B2BE58960065EB219EF /* FirebaseInstanceID */,
+				53AF9A2D5F16847421AE784198145382 /* FirebaseMessaging */,
+				CAD4B40E22FB55C245F5543E066CCAFD /* Google-Mobile-Ads-SDK */,
+				0ED601516D705BF556DE063177D78CE8 /* GoogleToolboxForMac */,
+				1033F95AFE56A32251F17E8370F06227 /* Protobuf */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		914B3F4C61F98A3832DD14DE2EFDFB65 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9E4C87B80AE38EDB7B60AA1889D30 /* Pods-MetalFlame iOS */,
+				12A25FE032D5DE4ACD19CFD72CE45EA8 /* Pods-MetalFlame OSX */,
+				9DAAFE1E343FC25D87C4C89076DAEADB /* Pods-MetalFlame tvOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9CC82CCB158D7208F33F194D221B7831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				455E9850B87F79F52D29AFC051113B0D /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DAAFE1E343FC25D87C4C89076DAEADB /* Pods-MetalFlame tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				D5E33B143D48E38576E1594ABF505844 /* Pods-MetalFlame tvOS-acknowledgements.markdown */,
+				1463547E23E1DF2AF468B7163137134F /* Pods-MetalFlame tvOS-acknowledgements.plist */,
+				59297F823D9196FD015DB58760DE8624 /* Pods-MetalFlame tvOS-dummy.m */,
+				BF64DAE429AC0DB8F4697CD8BCEF43B1 /* Pods-MetalFlame tvOS-frameworks.sh */,
+				9C64254EE7E9A5221E99B5010E4980A3 /* Pods-MetalFlame tvOS-resources.sh */,
+				B2116CFC2B17665006221EAD6AFEEB98 /* Pods-MetalFlame tvOS.debug.xcconfig */,
+				ABB6E5F301DA78519EA253D031F9F749 /* Pods-MetalFlame tvOS.release.xcconfig */,
+			);
+			name = "Pods-MetalFlame tvOS";
+			path = "Target Support Files/Pods-MetalFlame tvOS";
+			sourceTree = "<group>";
+		};
+		A03D48B5CE453602E28B2E88023E3A51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B82FE01A1C741820CCF765C37E43846B /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC0D0BC527FC220F5C34704AABEC6494 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				E3CA624D2DBA9945F163D2D6D32A81D6 /* GTMNSData+zlib.h */,
+				423D5EA3BA6E35C4FC0418B44B80C28B /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		B1A64E2DA19BC548535A3EB010E6AE69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC1C05300D826E5E74B1503D1923596F /* DRColorPicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B1C29C6A0B2DE60368FF3D54DB83C0F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9502AC66BD22966224452C272EEB7BD /* iOS */,
+				E112654458F34AF3B62E447C141F387C /* OS X */,
+				74BCD38D3A1A5484929798BBA17EA55E /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C01F441270B809883F94D3D5D57486B4 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				B5E44B9D570C1731D83DACE81299593E /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		C6B0B9B3F33FD28F15686FBED5C3843D /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				65CB9D15B2B1456CE93E1C425BB08E39 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		CAD4B40E22FB55C245F5543E066CCAFD /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				A03D48B5CE453602E28B2E88023E3A51 /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		CEBD094B0EF00B2BE58960065EB219EF /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				5E14127B1CAADAD39F2C126C7D48C8B7 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		CFF9E4C87B80AE38EDB7B60AA1889D30 /* Pods-MetalFlame iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B41AFD7178F4E932689D512238F2855 /* Pods-MetalFlame iOS-acknowledgements.markdown */,
+				8EB5D7C68128B587552322AA08A0261A /* Pods-MetalFlame iOS-acknowledgements.plist */,
+				5CE1409B950D0E8E983E73738A78F51A /* Pods-MetalFlame iOS-dummy.m */,
+				DAD05031546C53A82A76FA287521AC8A /* Pods-MetalFlame iOS-frameworks.sh */,
+				D796893CF5FCE2FC55792BC9EF6F40B6 /* Pods-MetalFlame iOS-resources.sh */,
+				4FC2FF662D70F4BDB4FF23EA790A4E1A /* Pods-MetalFlame iOS.debug.xcconfig */,
+				381AD3CF77A8A5CEA44DBEDABB7F54FF /* Pods-MetalFlame iOS.release.xcconfig */,
+			);
+			name = "Pods-MetalFlame iOS";
+			path = "Target Support Files/Pods-MetalFlame iOS";
+			sourceTree = "<group>";
+		};
+		D9502AC66BD22966224452C272EEB7BD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				228D375C5C6CD3D3FAE2E16BC46F7E96 /* Foundation.framework */,
+				B8A5F27E4517E1DACF0AEFBC279EC412 /* ImageIO.framework */,
+				E2A25B52F22D5AD3C2344F850FB4B07D /* QuartzCore.framework */,
+				25E8172DEF65F993C6021B17F8803E85 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E112654458F34AF3B62E447C141F387C /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				4D92C83AC0218A9871A9F44AA53A8CF3 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		F060123D6C5F47A71AADB10ECAD2FEA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				215D6C8307A62FCF7DB2E949EF83ADF4 /* FirebaseCore.framework */,
+				E7EDC875A53EB564F5C263AEFE79FC47 /* FirebaseCoreDiagnostics.framework */,
+				5A24186A093B0C57C3601F755275CB8A /* FirebaseNanoPB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0F1305018CA047D270858F756C10AD7 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				9CC82CCB158D7208F33F194D221B7831 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		FA0C4F769A40BAC9B4EE92BF8D817D7D /* DRColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1A093574DC69D944EF90A80607457EC5 /* DRColorPicker.h */,
+				E53157419E565BDBA0CBE294120D3852 /* DRColorPicker.m */,
+				5DE92C065E077ACCC0A70FB9E33155A5 /* DRColorPicker+UIColor.h */,
+				927D7236B602B3D42E0A3216C89A0162 /* DRColorPicker+UIColor.m */,
+				F281E5F1902158181800984026D1F182 /* DRColorPickerBaseViewController.h */,
+				C831B9CF4709ADD2D64AB6E17B882D22 /* DRColorPickerBaseViewController.m */,
+				15105F92F0B3A0367743473C9DC26D34 /* DRColorPickerColor.h */,
+				CD7F245763575B1D5E0A32A0369C7D4C /* DRColorPickerColor.m */,
+				F8E118A902BA05095607F803C8D39926 /* DRColorPickerColorView.h */,
+				5B17419343F81B37AFE81E5F4EA0AEA3 /* DRColorPickerColorView.m */,
+				559B31CC2709BDB0EF1C1CD96756CE38 /* DRColorPickerGridView.h */,
+				1C8DD4B956A905593A8309E7BA8A2694 /* DRColorPickerGridView.m */,
+				14E3382F3CA79D89726AA2B04DEBDE8A /* DRColorPickerGridViewCell.h */,
+				2A7930372E03DF56BB3E17CFB84054DF /* DRColorPickerGridViewCell.m */,
+				02B346D21CF7A3FC21E5277389E62BFF /* DRColorPickerGridViewController.h */,
+				D91E721ADF92A030432099F66B3CAFC1 /* DRColorPickerGridViewController.m */,
+				A8AEF4769FE3B9891D8121EF6E5EA28B /* DRColorPickerHomeView.h */,
+				3F690B377C583BC30D5CB0BD53015EA2 /* DRColorPickerHomeView.m */,
+				A7D985D867F2C0B418FEFF4ED1565CA6 /* DRColorPickerHomeViewController.h */,
+				140620B2AB42CAB1014450972C5ED1C9 /* DRColorPickerHomeViewController.m */,
+				EC5CCCB67DD4A5EBDB214978183F8A8C /* DRColorPickerHorizontalCollectionViewLayout.h */,
+				4564BC619B629E7A3B544F3841938E2D /* DRColorPickerHorizontalCollectionViewLayout.m */,
+				627D04001B657B0CFF1A95FBCCD8297B /* DRColorPickerHueView.h */,
+				E601D987BC901DB39C541E4B6A629116 /* DRColorPickerHueView.m */,
+				E6024B11D0EA2FAC2F209C9D8D120DD2 /* DRColorPickerHueViewController.h */,
+				9C112204A692B820EAA50C1461231516 /* DRColorPickerHueViewController.m */,
+				ED13BBA8DEDBD6618EB0FF9A6A4698F6 /* DRColorPickerStore.h */,
+				88599BE0344A8F678AE1B9B62BBE7068 /* DRColorPickerStore.m */,
+				2CE5B3DCA6E6FB68FB562F4A10B90CDF /* DRColorPickerViewController.h */,
+				38D511424E2978651E6C47BD7A371180 /* DRColorPickerViewController.m */,
+				3ECBF5208E2A16723E16127610D0CC07 /* DRColorPickerWheelView.h */,
+				49C539BD6BAC56D0B645DDAE9009D9E9 /* DRColorPickerWheelView.m */,
+				DC50DAEBBC89ACDA3AB360B598BE9049 /* DRColorPickerWheelViewController.h */,
+				4660FC5DA2AC0131480F521C15D20AE4 /* DRColorPickerWheelViewController.m */,
+				B1A64E2DA19BC548535A3EB010E6AE69 /* Resources */,
+				56343992054317365B05CA71166A79F0 /* Support Files */,
+			);
+			name = DRColorPicker;
+			path = DRColorPicker;
+			sourceTree = "<group>";
+		};
+		FA689217D11FD3FFF50876100CD44DE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				074E724F5BA749B13751B50BB50EEE65 /* FirebaseMessaging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0891C855EC3F959D4D6A124B6F7A3FD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA8472C2ABC1C478325BED2A678F4C8 /* DRColorPicker+UIColor.h in Headers */,
+				31185D7C2B3AB0B5746642DF457D388D /* DRColorPicker.h in Headers */,
+				89A3D3CCC6135754FEE9AA056895683B /* DRColorPickerBaseViewController.h in Headers */,
+				086B4A2FC60AD9A1B45F2D67600C53B3 /* DRColorPickerColor.h in Headers */,
+				C828F427BF57DBC52040E8B7A32ED858 /* DRColorPickerColorView.h in Headers */,
+				8B9DD2C3C87779E60BA6CF48E4777762 /* DRColorPickerGridView.h in Headers */,
+				CC8588A9DBC2BB56A1989E00E1F074AA /* DRColorPickerGridViewCell.h in Headers */,
+				3B165B15815135EB458356BB8A9D7B0F /* DRColorPickerGridViewController.h in Headers */,
+				8B95957BE6B1029EE9A6AC3E36686CBD /* DRColorPickerHomeView.h in Headers */,
+				0D65F0E2FDCEF6171792B702561D251D /* DRColorPickerHomeViewController.h in Headers */,
+				56B1804DFC7F38DD410FA3AE1E52BC35 /* DRColorPickerHorizontalCollectionViewLayout.h in Headers */,
+				E7A864328FFC7F6A93DE10E157381E0E /* DRColorPickerHueView.h in Headers */,
+				1555A8B2350A671DDBF5DE8D7D48E36A /* DRColorPickerHueViewController.h in Headers */,
+				7EB79E11AE569041F6B48A086D4D956D /* DRColorPickerStore.h in Headers */,
+				33B99C66AA2AF79832CE5C41C28FCA4D /* DRColorPickerViewController.h in Headers */,
+				668D34FBC1CD4FB29E26A1402EF60C9A /* DRColorPickerWheelView.h in Headers */,
+				1D40D2863F7F5FAD328AD514DBF06614 /* DRColorPickerWheelViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AC353E7DDDB2167D1AB17676628071 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90906AC58824566DFC6875E1ED25E855 /* GTMDefines.h in Headers */,
+				154E5AB0C541CED05D795C6198947D27 /* GTMLogger.h in Headers */,
+				6A5451E67CBAAED4E81995B58427A175 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AE51FE3555FB5BD62AFDCD32853986 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C819E20F49E47B669B94816C77B75 /* Any.pbobjc.h in Headers */,
+				AC54F63C49DF1753C5242D8DA63B3E8A /* Api.pbobjc.h in Headers */,
+				D1EEFBA98776D64F42B6B7A82CC8AC97 /* Duration.pbobjc.h in Headers */,
+				EDC76C90AD83103A9AD842DFA1034B29 /* Empty.pbobjc.h in Headers */,
+				4832374ED695592EEA4B70EC33F04BA8 /* FieldMask.pbobjc.h in Headers */,
+				C92226EE6C5465232E9703145302E5BB /* GPBArray.h in Headers */,
+				B334DDEDD6A4D163F1F7FDFE6658FA5A /* GPBArray_PackagePrivate.h in Headers */,
+				E31D21C98EAED4F3180A9C991E1DCE79 /* GPBBootstrap.h in Headers */,
+				9FCE3DA7548F85DE2D50E79A7E4924A8 /* GPBCodedInputStream.h in Headers */,
+				D3D710CAE8D449F406838CCD651427D7 /* GPBCodedInputStream_PackagePrivate.h in Headers */,
+				59EF3665BDED79D7977AC0A71B90FAFA /* GPBCodedOutputStream.h in Headers */,
+				9B308ECC0159E809F6CE192A1E7FE5A8 /* GPBCodedOutputStream_PackagePrivate.h in Headers */,
+				D31447C70A4FDC6CD6074117BD7FFDEF /* GPBDescriptor.h in Headers */,
+				80D8F6DA84C6C6937647A915CB9EBC6F /* GPBDescriptor_PackagePrivate.h in Headers */,
+				B1370D3C9757F84F4261A0FA09819337 /* GPBDictionary.h in Headers */,
+				A3C3176FB075CF015C10FFC25D370EC4 /* GPBDictionary_PackagePrivate.h in Headers */,
+				0A551F68F205DFF1A5D59EB50CF26792 /* GPBExtensionInternals.h in Headers */,
+				5541F2581A3CDA033155C99EFF41B190 /* GPBExtensionRegistry.h in Headers */,
+				D6F22B8FF40F645FC1EC73D2AA06B3B9 /* GPBMessage.h in Headers */,
+				3487F99020206D3EFE486CCF4D6C29E7 /* GPBMessage_PackagePrivate.h in Headers */,
+				DCB7AD39A035F40925F2A11E21D6B412 /* GPBProtocolBuffers.h in Headers */,
+				0410A46F56C27A00CE9592F36D71B6B1 /* GPBProtocolBuffers_RuntimeSupport.h in Headers */,
+				33DD3C786D272DEB72F2DA13D81FF068 /* GPBRootObject.h in Headers */,
+				A376EDED44D202E8140F2F4FF5118DA9 /* GPBRootObject_PackagePrivate.h in Headers */,
+				9D3B00AB896E6B6EBFA1A9E7CF7F63A9 /* GPBRuntimeTypes.h in Headers */,
+				02010E80449C8EAEBF2E522D6F03AAFA /* GPBUnknownField.h in Headers */,
+				FF751901480A4B38113207A7A3894D33 /* GPBUnknownField_PackagePrivate.h in Headers */,
+				0DF0609C4776291E5779E83F7031B3AD /* GPBUnknownFieldSet.h in Headers */,
+				FF1D957380DBBD59509C7771DE76EB03 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */,
+				C9C22EBA1A44EB842C636134778F95F5 /* GPBUtilities.h in Headers */,
+				AF02DEBA58F5B25A1C6CAC55FB478C72 /* GPBUtilities_PackagePrivate.h in Headers */,
+				526941CD8CA07173FAF4FEBC975DF31C /* GPBWellKnownTypes.h in Headers */,
+				1778F261C6AA933DB3067262269C2E3E /* GPBWireFormat.h in Headers */,
+				D8374CD72C5AE1C54ECA08DEEBB953F0 /* SourceContext.pbobjc.h in Headers */,
+				447B2200ACCA63F15375E937C056C670 /* Struct.pbobjc.h in Headers */,
+				9CD3805E7378768608681F38F363A9D7 /* Timestamp.pbobjc.h in Headers */,
+				3A01E6141C851E20CDA20EB99A023B35 /* Type.pbobjc.h in Headers */,
+				BE1D61896F435AD44A451E186DF12014 /* Wrappers.pbobjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DB870BD1CBF2FEFE2CBA5EF41F55723 /* Protobuf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F50F511180C2CC46697004E803472FB /* Build configuration list for PBXNativeTarget "Protobuf" */;
+			buildPhases = (
+				D9696265EDC514FE124E33DC24EB149E /* Sources */,
+				D1FDE864A2BF4C7F7EF7AAECEA5A03BB /* Frameworks */,
+				B3AE51FE3555FB5BD62AFDCD32853986 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Protobuf;
+			productName = Protobuf;
+			productReference = 24BCC2319A435C979F3FABAA00900EE6 /* libProtobuf.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7B466195C647640883AE7132DBE79616 /* Pods-MetalFlame iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 987F08F6901320BD9160D458B02CE860 /* Build configuration list for PBXNativeTarget "Pods-MetalFlame iOS" */;
+			buildPhases = (
+				2FC829BDA55B075E6F0202E6CC06B30D /* Sources */,
+				45B15FCA4A050C413107037B8195D0AF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5D39B1567941FCF4D4318700BC242FC /* PBXTargetDependency */,
+				2B4DB0652B8E450B7F6243C3B5684F75 /* PBXTargetDependency */,
+				7F9FD072FC6858A0D02B8B3614C7C5E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-MetalFlame iOS";
+			productName = "Pods-MetalFlame iOS";
+			productReference = C9FE3FADFF49C87211873741E8EDAF46 /* libPods-MetalFlame iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		842A0D621639C1DDB8DAFE2CF36B978A /* DRColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DD76B61F0AF26AF655AB03D8A6C519 /* Build configuration list for PBXNativeTarget "DRColorPicker" */;
+			buildPhases = (
+				B55DE7DA3C573FFAD04EEA5D44443DAE /* Sources */,
+				E035C106102BDF4253F8A8AD2D93EC10 /* Frameworks */,
+				0891C855EC3F959D4D6A124B6F7A3FD7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DRColorPicker;
+			productName = DRColorPicker;
+			productReference = 168159F0BF745F6E6F52B3CBF2F25E99 /* libDRColorPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B69F33595E5E59A20564997CA75369A9 /* Pods-MetalFlame OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3533D7A4DAD12629DC83BE745A85FE /* Build configuration list for PBXNativeTarget "Pods-MetalFlame OSX" */;
+			buildPhases = (
+				B496763A6DBC5626D7F897BB534FBDC3 /* Sources */,
+				F9B0E0B98B0EBC8DC169787381191E5C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MetalFlame OSX";
+			productName = "Pods-MetalFlame OSX";
+			productReference = B69B275312286865EC297947EAE96BC5 /* libPods-MetalFlame OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DFD5F1C16792BF2981A1B1FDE8AECAE9 /* Pods-MetalFlame tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017F9479529547AB5CB8246FF5738F65 /* Build configuration list for PBXNativeTarget "Pods-MetalFlame tvOS" */;
+			buildPhases = (
+				C26B7F6A1736DF528E6948F2C5578FCC /* Sources */,
+				6424825C08C7705D1EA7F9ED0F91A547 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MetalFlame tvOS";
+			productName = "Pods-MetalFlame tvOS";
+			productReference = A5253E9F9CB2DEB208F4E9CAE92A2417 /* libPods-MetalFlame tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA9D13261AF395CF5D54BB3203DF2A6E /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A6FD8AAC113A69F57982237B2DDA0F /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				B311E4867662945861847843827DB0EB /* Sources */,
+				6AD215334409363FBBC48E48118C5C62 /* Frameworks */,
+				53AC353E7DDDB2167D1AB17676628071 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = ECEC2303D064113AEA8EE4691464C273 /* libGoogleToolboxForMac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 15E5FF762E1E682F68BC250A05D53DE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842A0D621639C1DDB8DAFE2CF36B978A /* DRColorPicker */,
+				FA9D13261AF395CF5D54BB3203DF2A6E /* GoogleToolboxForMac */,
+				7B466195C647640883AE7132DBE79616 /* Pods-MetalFlame iOS */,
+				B69F33595E5E59A20564997CA75369A9 /* Pods-MetalFlame OSX */,
+				DFD5F1C16792BF2981A1B1FDE8AECAE9 /* Pods-MetalFlame tvOS */,
+				4DB870BD1CBF2FEFE2CBA5EF41F55723 /* Protobuf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC829BDA55B075E6F0202E6CC06B30D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263B79AE7A5B8DA75E8185E320C98A57 /* Pods-MetalFlame iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B311E4867662945861847843827DB0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8F036F7FAAF35FE98CE3FBFF25D72F /* GoogleToolboxForMac-dummy.m in Sources */,
+				CE793643063B71F80F32F0851FDABFA5 /* GTMLogger.m in Sources */,
+				F1B1695A6AB8AFEC306AB371F2DCA21F /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B496763A6DBC5626D7F897BB534FBDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B456D77DAFA4601F13B7317F8EDC5739 /* Pods-MetalFlame OSX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55DE7DA3C573FFAD04EEA5D44443DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5B8AD0E3E1A5FE4A05C7F8B7D95E41 /* DRColorPicker+UIColor.m in Sources */,
+				1C089433F14841DE82557C07B41BE09E /* DRColorPicker-dummy.m in Sources */,
+				1F6DA2CFDF1371B5D42BDEB0C7F00152 /* DRColorPicker.m in Sources */,
+				DFB8411FE2F97E732E122DEE3CC30891 /* DRColorPickerBaseViewController.m in Sources */,
+				715B73782FCD30FD23F40C8208F67037 /* DRColorPickerColor.m in Sources */,
+				0DA41C7CAFAEBF2899AC4B9C84D13571 /* DRColorPickerColorView.m in Sources */,
+				630D903D3E6FB64183A53DABDB31FCF9 /* DRColorPickerGridView.m in Sources */,
+				F6CCF3604FEDA9778BE7EE3B67CDEE6D /* DRColorPickerGridViewCell.m in Sources */,
+				66ECC6A7932396EEC631236C6093780C /* DRColorPickerGridViewController.m in Sources */,
+				94FBF47CFC1A589BE7BA9AE11E75FE78 /* DRColorPickerHomeView.m in Sources */,
+				7B3F69CE6A437A2AFDED6544DDAC84F0 /* DRColorPickerHomeViewController.m in Sources */,
+				9BD9CF00C080F06CFE3F9B4548C77FDA /* DRColorPickerHorizontalCollectionViewLayout.m in Sources */,
+				CF5A1B4D7C44DC1C4AC8EBFF6F7CD327 /* DRColorPickerHueView.m in Sources */,
+				15CB22932F611080532FE35112E5F2CC /* DRColorPickerHueViewController.m in Sources */,
+				EF3A6C21CCEAB08FA4F591778422ED80 /* DRColorPickerStore.m in Sources */,
+				F5CF185F9224684F05F96BA698DF3D80 /* DRColorPickerViewController.m in Sources */,
+				7C39753D0026A74B4DAC812FB72D2100 /* DRColorPickerWheelView.m in Sources */,
+				49BA9CAC89056DCB5322126060495FC8 /* DRColorPickerWheelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26B7F6A1736DF528E6948F2C5578FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E5D4EA4DE7E78671E2675FC9A9973D /* Pods-MetalFlame tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9696265EDC514FE124E33DC24EB149E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BB76567148ADA6D0BB3456C2C715C0 /* Any.pbobjc.m in Sources */,
+				74CC5D27D874367FDD6CD82DD04B069B /* Api.pbobjc.m in Sources */,
+				1654DBBAA63900F610DCABABD34A1806 /* Duration.pbobjc.m in Sources */,
+				AFB09342C2034CABFC6345518159EC31 /* Empty.pbobjc.m in Sources */,
+				2FDE57FFF7A9A421E6CE2871F050566D /* FieldMask.pbobjc.m in Sources */,
+				C31EDC21031D4DA397549602FE71164C /* GPBArray.m in Sources */,
+				5F46C7CC2B372F9DC847CF9AE52E3F67 /* GPBCodedInputStream.m in Sources */,
+				68857A61EE5B58609E4D37D438F3D61F /* GPBCodedOutputStream.m in Sources */,
+				709A2CDC5EFCF9CD859FF9130DECB7E2 /* GPBDescriptor.m in Sources */,
+				99375787255D5D4BC48C278A57B1D20F /* GPBDictionary.m in Sources */,
+				F46A079C5A882933385DFE6090956946 /* GPBExtensionInternals.m in Sources */,
+				13C11169CE24490918F53B1F10303628 /* GPBExtensionRegistry.m in Sources */,
+				2168D239BE73C55CDFEBCCB653000CD5 /* GPBMessage.m in Sources */,
+				15036DFE99F9B4D2F5349A97D952D0DB /* GPBRootObject.m in Sources */,
+				137A9FC65B29D01EC00465A9C6AE708D /* GPBUnknownField.m in Sources */,
+				3870D9B1E8831224A7504B948F827BD9 /* GPBUnknownFieldSet.m in Sources */,
+				05DE5F868810230E9F11E1C34EF25A9C /* GPBUtilities.m in Sources */,
+				5E5EE74A6DD8EFB8F054E57537518B0F /* GPBWellKnownTypes.m in Sources */,
+				5195C51B2FB7E650ADEDE2AF643B2DFB /* GPBWireFormat.m in Sources */,
+				3EC52A6EEE754C0E4761B636C7868975 /* Protobuf-dummy.m in Sources */,
+				C8584A2462C43A7BC1934E477E4DD597 /* SourceContext.pbobjc.m in Sources */,
+				9277F6B33D7AF5BA1E4D2377310A759D /* Struct.pbobjc.m in Sources */,
+				9AF09DCFB0CB84FE5EDCB4FD9362F8F7 /* Timestamp.pbobjc.m in Sources */,
+				040A0EC0113301652BF720CB8A77F7AF /* Type.pbobjc.m in Sources */,
+				7D583A86747E9BD854C046033F5A2515 /* Wrappers.pbobjc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B4DB0652B8E450B7F6243C3B5684F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = FA9D13261AF395CF5D54BB3203DF2A6E /* GoogleToolboxForMac */;
+			targetProxy = F3CAEFAF41912F63382D648212FA4D50 /* PBXContainerItemProxy */;
+		};
+		7F9FD072FC6858A0D02B8B3614C7C5E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Protobuf;
+			target = 4DB870BD1CBF2FEFE2CBA5EF41F55723 /* Protobuf */;
+			targetProxy = 966E395255AA0C7362577A8B1FA68792 /* PBXContainerItemProxy */;
+		};
+		E5D39B1567941FCF4D4318700BC242FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRColorPicker;
+			target = 842A0D621639C1DDB8DAFE2CF36B978A /* DRColorPicker */;
+			targetProxy = 775ADF81B9D9827635390916DA0B3429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B65849D8560CA4217DA0687A793D87B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40B7E8CA475EB2ABF153E6709D2CE35 /* Protobuf.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		25CA1E04CD1373F4A489C1EB008A4417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40B7E8CA475EB2ABF153E6709D2CE35 /* Protobuf.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		394E1A25E5644290A4E87FB1DC41D776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2116CFC2B17665006221EAD6AFEEB98 /* Pods-MetalFlame tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		67F33367CAE536C506E56BDFAC50FAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC2FF662D70F4BDB4FF23EA790A4E1A /* Pods-MetalFlame iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7F0E4646AA1307DAE1BAE8450D1D5F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7D20267BFBEF8E0D029F36E3A6674B /* DRColorPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DRColorPicker/DRColorPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B8FAF72E3861999531AF1FD0FA842A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99BC8BDBAA11F0056F9F84C7B7986B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		B5869AA0168DB4A0561F24E21268B5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB6E5F301DA78519EA253D031F9F749 /* Pods-MetalFlame tvOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		BD0FDA2BFA9723678F71B214FBC4DECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BFA5D002B4F055036E52F8C42B0CEB /* Pods-MetalFlame OSX.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE31CE5A4CEE30B7760F0A29A8109B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0586AFA719DB9E3B870C93C5B161D7D2 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C092DBBB18598FF1BD4BE64AFEB7D78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0586AFA719DB9E3B870C93C5B161D7D2 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5248A6DCC05E6921A22D83753719D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7D20267BFBEF8E0D029F36E3A6674B /* DRColorPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DRColorPicker/DRColorPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFB4452670CB31054612AA5C6A3145AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381AD3CF77A8A5CEA44DBEDABB7F54FF /* Pods-MetalFlame iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F50441B3F6DB16722F83F8F75B6F8489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4261284AB21F20B4D1068F3B0D668C66 /* Pods-MetalFlame OSX.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017F9479529547AB5CB8246FF5738F65 /* Build configuration list for PBXNativeTarget "Pods-MetalFlame tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394E1A25E5644290A4E87FB1DC41D776 /* Debug */,
+				B5869AA0168DB4A0561F24E21268B5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99BC8BDBAA11F0056F9F84C7B7986B05 /* Debug */,
+				8B8FAF72E3861999531AF1FD0FA842A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F50F511180C2CC46697004E803472FB /* Build configuration list for PBXNativeTarget "Protobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25CA1E04CD1373F4A489C1EB008A4417 /* Debug */,
+				1B65849D8560CA4217DA0687A793D87B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65DD76B61F0AF26AF655AB03D8A6C519 /* Build configuration list for PBXNativeTarget "DRColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0E4646AA1307DAE1BAE8450D1D5F45 /* Debug */,
+				C5248A6DCC05E6921A22D83753719D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A6FD8AAC113A69F57982237B2DDA0F /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C092DBBB18598FF1BD4BE64AFEB7D78F /* Debug */,
+				BE31CE5A4CEE30B7760F0A29A8109B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		987F08F6901320BD9160D458B02CE860 /* Build configuration list for PBXNativeTarget "Pods-MetalFlame iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F33367CAE536C506E56BDFAC50FAF2 /* Debug */,
+				DFB4452670CB31054612AA5C6A3145AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3533D7A4DAD12629DC83BE745A85FE /* Build configuration list for PBXNativeTarget "Pods-MetalFlame OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0FDA2BFA9723678F71B214FBC4DECF /* Debug */,
+				F50441B3F6DB16722F83F8F75B6F8489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
